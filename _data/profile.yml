@@ -75,8 +75,11 @@ awards:
   date: 2021
 
 service:
-- name: Reviewer of <a href="https://www.embs.org/jbhi/">Journal of Biomedical and Health Informatics (JBHI)</a>
-- name: Reviewer of <a href="https://2025.ieeeicme.org/">ICME 2025</a>
+- name: Reviewer of <a href="https://asistdl.onlinelibrary.wiley.com/journal/23301643">JASIST</a>, <a href="https://www.sciencedirect.com/journal/information-processing-and-management">IPM</a>,
+ <a href="https://www.sciencedirect.com/journal/expert-systems-with-applications">ESWA</a>, <a href="https://www.nature.com/palcomms/">HSSCOMMS</a>,
+ <a href="https://journals.plos.org/plosone/">PLOSOne</a>, <a href="https://www.jmir.org/">JMIR</a>,
+ <a href="https://www.emeraldgrouppublishing.com/journal/ijicc">IJICC</a>, <a href="https://www.tandfonline.com/journals/rjmc20">RJMC</a>,
+ <a href="https://www.inderscience.com/jhome.php?jcode=ijdats">IJDATS</a>,
 
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
