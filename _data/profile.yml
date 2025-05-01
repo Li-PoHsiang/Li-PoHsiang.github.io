@@ -29,15 +29,15 @@ portrait_caption: >-
 
 education:
 - name: Nanjing University
-  logo: assets/images/badges/mpu_master.png
+  logo: assets/images/badges/NJU.jpg
   position: Ph.D in Information Resource Management
   date: Sep. 2024 - now
 - name: Nanjing Audit University
-  logo: assets/images/badges/hpu_bs.png
+  logo: assets/images/badges/NAU.png
   position: M.S. in Business Adiministration
   date: Sep. 2021 - Jul. 2024
 - name: Nanjing Audit University
-  logo: assets/images/badges/hpu_bs.png
+  logo: assets/images/badges/ECUT.png
   position: B.S. in Mathematics and Applied Mathematics
   date: Sep. 2017 - Jul. 2021
   
