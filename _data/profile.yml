@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Li-bo Hsiang's Home Page"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/mpu_master.png" alt="Macao Polytechnic University" class="inline-badge"/></span> M.S., Macao Polytechnic University (2024)'
+  - '<span class="no-break"><img src="assets/images/badges/NJU.jpg" alt="Nanjing University" class="inline-badge"/></span> Nanjing University'
 
 email: "wavehsiang@gmail.com"
 # gscholar: SSaBaioAAAAJ
@@ -20,7 +20,7 @@ github: Li-boHsiang
 
 short_bio: >-
   I am Li-bo Hsiang, I am pursuing my PhD degree in the <a href="https://scool.nju.edu.cn/">Intelligent Intelligence Laboratory</a> of Nanjing University and working under the supervision of Prof.<a href="https://im.nju.edu.cn/sj/list.htm">Shi Jin</a>.
-  My research interests are innovation informetrics, medical informatics and large language model.</br></br>I publish a lot of open source projects on <a href="https://github.com/Li-boHsiang">🔗Github</a> <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/wangrongsheng?style=flat-square">.
+  My research interests are innovation informetrics, medical informatics and large language model.</br></br>I publish a lot of open source projects on <a href="https://github.com/Li-boHsiang">🔗Github.
   
 show_portrait: true
 portrait_url: assets/images/photos/55651568.jpeg
