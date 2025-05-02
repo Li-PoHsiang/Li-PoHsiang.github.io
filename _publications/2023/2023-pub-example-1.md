@@ -6,7 +6,7 @@ pub:            "International Journal of Manpower"
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
 pub_date:       "2023"
 abstract: >-
-  Purpose
+Purpose
 The purpose of this study is to comprehensively review the human resource management (HRM) and employment relations (ERs) field and explore the knowledge map, knowledge evolution trends and paths and paradigm shifts within this field.
 Design/methodology/approach
 The Structural Topic Model in combination with Word2vec is proposed and applied in this work. First, this paper detects and interprets the research topics by reviewing 23,786 papers from 29 important journals in this field from 1990 to 2021. Then, this research explores popularity trends by aggregating topic proportions from a temporal perspective. Finally, this work explores the research topic evolution from the semantic perspective.
