@@ -1,5 +1,5 @@
 ---
-title:          Aux-ViT： Classification of Alzheimer's Disease from MRI based on Vision Transformer with Auxiliary Branch
+title:          Discovering knowledge map and evolutionary path of HRM and ER: using the STM combined with Word2vec
 date:           2023-04-14 00:01:00 +0800
 selected:       false
 pub:            "2023 5th International Conference on Communications, Information System and Computer Engineering (CISCE)"
