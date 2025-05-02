@@ -16,10 +16,10 @@ github: Li-boHsiang
 # zhihu: wang-rong-sheng-74
 # resume: assets/cv/Resume_RongshengWang.pdf
 # linkedin: your-linked-in-id
-# orcid: 0000-0000-0000-0000
+orcid: 0000-0002-3020-2223
 
 short_bio: >-
-  I am Li-bo Hsiang, I am pursuing my PhD degree in the <a href="https://scool.nju.edu.cn/">Intelligent Intelligence Laboratory</a> of Nanjing University and working under the supervision of Prof. <a href="https://im.nju.edu.cn/sj/list.htm">Shi Jin</a>.
+  I am Li-bo Hsiang, I am pursuing my PhD degree in the <a href="https://scool.nju.edu.cn/">Intelligent Intelligence Laboratory</a> of Nanjing University and working under the supervision of Prof. <a href="https://im.nju.edu.cn/sj/list.htm">Jin Shi</a>.
   My research interests are innovation informetrics, medical informatics and large language model.
   
 show_portrait: true
@@ -30,15 +30,16 @@ portrait_caption: >-
 education:
 - name: Nanjing University
   logo: assets/images/badges/NJU.jpg
-  position: Ph.D in Information Resource Management
+  position: Ph.D in Information Resource Management (Supervisor is <a href="https://im.nju.edu.cn/sj/list.htm">Jin Shi</a>)
+  date: Sep. 2021 - Jul. 2024
   date: Sep. 2024 - now
 - name: Nanjing Audit University
   logo: assets/images/badges/NAU.png
-  position: M.S. in Business Adiministration
+  position: M.S. in Business Adiministration (Supervisor is <a href="https://scholar.google.com/citations?user=y5nPV8cAAAAJ&hl=zh-CN&oi=sra">Dejian Yu</a>)
   date: Sep. 2021 - Jul. 2024
 - name: Nanjing Audit University
   logo: assets/images/badges/ECUT.png
-  position: B.S. in Mathematics and Applied Mathematics
+  position: B.S. in Mathematics and Applied Mathematics (Supervisor is <a href="https://lxy.ecut.edu.cn/85/d0/c9162a34256/page.htm">Zhihui Yang</a>)
   date: Sep. 2017 - Jul. 2021
   
 experience:
@@ -55,7 +56,6 @@ experience:
   position: Research Assistant (Supervisor is <a href="https://web.archive.org/web/20240717103203/https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/BAI-Yun/yunbai">Yun Bai</a> and <a href="https://cee.rutgers.edu/xiang-liu">Xiang Liu</a>)
   date: Feb. 2024 -	May 2024
 
-
 awards:
 - name: Silver of Kaggle AI Mathematical Olympiad - Progress Prize 2
   date: 2025
@@ -65,14 +65,6 @@ awards:
   date: 2024
 - name: Third Prize of Digital Medical Technology and Application Innovation Competition
   date: 2023
-- name: Third Prize of Baichuan Intelligence and Amazon Cloud AGI Hackathon
-  date: 2023
-- name: Silver of Kaggle RSNA Screening Mammography Breast Cancer Detection
-  date: 2023
-- name: Outstanding Award of IEEE UV 2022 "Vision Meets Algae" Object Detection Challenge
-  date: 2022
-- name: <a href="https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E7%8E%8B%E8%8D%A3%E8%83%9C">Baidu PaddlePaddle Developers Experts</a>
-  date: 2021
 
 service:
 - name: Reviewer of <a href="https://asistdl.onlinelibrary.wiley.com/journal/23301643">Journal of the Association for Information Science and Technology (JASIST)</a>
