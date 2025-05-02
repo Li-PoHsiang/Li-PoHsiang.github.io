@@ -13,5 +13,4 @@ authors:
   - Bo Xiang†
 links:
   Paper: https://www.emerald.com/insight/content/doi/10.1108/ijm-08-2022-0353/full/html
-  Cite: assets/bibtex/wang2023pctm.bib
 ---
