@@ -43,28 +43,23 @@ education:
   date: Sep. 2017 - Jul. 2021
   
 experience:
-- name: CUHK (SZ)
-  logo: assets/images/badges/cuhk-sz.png
-  position: Research Assistant (Supervisor is <a href="https://wabyking.github.io/old.html">Benyou Wang</a>)
-  date: Sep. 2024 - Now
-- name: Qiyuan.Tech
-  logo: assets/images/badges/qiyuan.png
-  position: CTO, Reasercher
-  date: Oct. 2023 - Now
-- name: HKUST (GZ) 
-  logo: assets/images/badges/hkust-gz.png
-  position: Research Assistant (Supervisor is <a href="https://web.archive.org/web/20240717103203/https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/BAI-Yun/yunbai">Yun Bai</a> and <a href="https://cee.rutgers.edu/xiang-liu">Xiang Liu</a>)
-  date: Feb. 2024 -	May 2024
+- name: Anygate.Tech
+  logo: assets/images/badges/Soul.jpg
+  position: Product Manager
+- name: DiDi Digital
+  logo: assets/images/badges/Didi.jpg
+  position: Data Analyst
+- name: CITIC Securities
+  logo: assets/images/badges/CITIC.png
+  position: Research Assistant
 
 awards:
-- name: Silver of Kaggle AI Mathematical Olympiad - Progress Prize 2
-  date: 2025
-- name: Outstanding Award of JingDong Health - Global AI Innovation Competition
+- name: China National Scholarship
   date: 2024
-- name: First Prize of Baidu PaddlePaddle AGI Hackathon
-  date: 2024
-- name: Third Prize of Digital Medical Technology and Application Innovation Competition
-  date: 2023
+- name: The Interdisciplinary Contest in Modeling - Meritorious Winner
+  date: 2019
+- name: Teddy Cup National Data Mining Challenge - National Second Price
+  date: 2019
 
 service:
 - name: Reviewer of <a href="https://asistdl.onlinelibrary.wiley.com/journal/23301643">Journal of the Association for Information Science and Technology (JASIST)</a>
