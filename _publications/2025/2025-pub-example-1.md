@@ -9,7 +9,7 @@ pub_date:       "2025"
 abstract: >-
   This study offers a novel and detailed overview of TSM research highlighting significant trends and collaboration patterns within the field. By integrating bibliometric methods with structural topic modeling the study provides unique insights into the evolution of TSM research making it a valuable resource for both academic and professional communities.
   
-cover:          assets/images/covers/medvideocap.png
+cover:          assets/images/covers/IJICC-TSM.png
 authors:
   - Xiaorong He
   - Bo Xiang†
