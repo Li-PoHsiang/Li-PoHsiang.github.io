@@ -1,10 +1,8 @@
 ---
-title:          Unlocking Medical Video Generation by Scaling Granularly-annotated Medical Videos
+title:          Exploring the evolution and collaboration in two-sided matching A comprehensive bibliometric and topic modeling analysis
 date:           2025-04-20 00:01:00 +0800
 selected:       true
-pub:            "arXiv"
-# pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
+pub:            "International Journal of Intelligent Computing and Cybernetics"
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span>'
 pub_date:       "2025"
 
