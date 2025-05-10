@@ -1,5 +1,6 @@
 ---
 title:          "Customized integrated decision model for CBEC enterprise credit evaluation: The fusion of multi-source features and machine learning"
+date:           2025-01-01 00:01:00 +0800
 selected:       false
 pub:            "Electronic Markets"
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
