@@ -1,27 +1,17 @@
 ---
-title:          IvyGPT： Interactive Chinese Pathway Language Model in the Medical Domain
-date:           2023-07-22 00:01:00 +0800
+title:          Discovering knowledge map and evolutionary path of HRM and ER: using the STM combined with Word2vec
+date:           2023-07-04 00:01:00 +0800
 selected:       false
-pub:            "2023 CAAI International Conference on Artificial Intelligence"
-pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span><span class="badge badge-pill badge-custom badge-warning">Poster</span>'
+pub:            "International Journal of Manpower"
+pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Journal</span><span class="badge badge-pill badge-custom badge-warning">Poster</span>'
 pub_date:       "2023"
 abstract: >-
-  We propose IvyGPT, a large language model trained on medical question-answering data and reinforced with human feedback, achieving state-of-the-art performance for clinical conversational agents while containing over 33 billion parameters manageably within a small GPU cluster.
+  This work adopts state-of-the-art textual as well as semantic mining techniques to establish a comprehensive knowledge map for HRM and ER research. Furthermore, these results uniquely demonstrate the pluralistic ideological orientation at the social level is gradually integrated into more micro levels, such as enterprises and individuals. These are the contents that were mentioned from previous studies by scholars, but not meticulously verified and interpreted.
   
 cover:          assets/images/covers/ivygpt.png
 authors:
-  - Rongsheng Wang
-  - Yaofei Duan
-  - ChanTong Lam
-  - Jiexin Chen
-  - Jiangsheng Xu
-  - Haoming Chen
-  - Xiaohong Liu
-  - Patrick Cheong-Iao Pang
-  - Tao Tan†
+  - Dejian Yu
+  - Bo Xiang†
 links:
-  Paper: https://link.springer.com/chapter/10.1007/978-981-99-9119-8_34
-  Code: https://github.com/WangRongsheng/IvyGPT
-  Cite: assets/bibtex/wang2023ivygpt.bib
-  Poster: assets/images/poster/CICAI2023-poster.jpg
+  Paper: https://www.emerald.com/insight/content/doi/10.1108/ijm-08-2022-0353/full/html
 ---
