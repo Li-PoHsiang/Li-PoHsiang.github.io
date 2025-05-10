@@ -53,6 +53,12 @@ experience:
   logo: assets/images/badges/CITIC.png
   position: Research Assistant
 
+directions:
+- name: Medical 
+  date: 2024
+- name: Scientific & Technological 
+  date: 2024
+
 awards:
 - name: China National Scholarship
   date: 2024
@@ -75,4 +81,4 @@ service:
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
 footer_text: >-
-  Copyright © 2024 <a href="https://github.com/Li-boHsiang" target="_blank">Li-bo Hsiang</a>. All Rights Reserved.
+  Copyright © 2025 <a href="https://github.com/Li-boHsiang" target="_blank">Li-bo Hsiang</a>. All Rights Reserved.
