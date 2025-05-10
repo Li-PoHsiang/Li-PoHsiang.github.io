@@ -7,12 +7,14 @@ pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal
 pub_date:       "2025"
 
 abstract: >-
-  We introduce MedVideoCap-55K, the first large-scale, diverse, and caption-rich dataset designed for medical video generation. Comprising over 55,000 curated clips from real-world clinical scenarios, it addresses the critical need for both visual fidelity and medical accuracy in applications such as training, education, and simulation.
+  This study offers a novel and detailed overview of TSM research highlighting significant trends and collaboration patterns within the field. By integrating bibliometric methods with structural topic modeling the study provides unique insights into the evolution of TSM research making it a valuable resource for both academic and professional communities.
   
 cover:          assets/images/covers/medvideocap.png
 authors:
-  - Dejian Yu
+  - Xiaorong He
   - Bo Xiang†
+  - Zeshui Xu
+  - Dejian Yu
 links:
-  Paper: https://www.emerald.com/insight/content/doi/10.1108/ijm-08-2022-0353/full/html
+  Paper: https://www.emerald.com/insight/content/doi/10.1108/IJICC-08-2024-0374/full/html
 ---
