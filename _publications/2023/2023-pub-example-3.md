@@ -1,8 +1,8 @@
 ---
-title:          Name
-date:           2023-07-01 00:01:00 +0800
+title:          Discovering topics and trends in the field of Artificial Intelligence Using LDA topic modeling
+date:           2023-09-01 00:01:00 +0800
 selected:       false
-pub:            "Displays"
+pub:            "Expert Systems with Applications"
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
 pub_date:       "2023"
 abstract: >-
@@ -19,6 +19,5 @@ authors:
   - Tong Tong
   - Tao Tan†
 links:
-  Paper: https://www.sciencedirect.com/science/article/pii/S0141938223000367
-  Cite: assets/bibtex/wang2023lightr.bib
+  Paper: https://www.sciencedirect.com/science/article/pii/S0957417423006164
 ---
