@@ -1,7 +1,7 @@
 ---
 title:          Discovering topics and trends in the field of Artificial Intelligence Using LDA topic modeling
 date:           2023-09-01 00:01:00 +0800
-selected:       false
+selected:       True
 pub:            "Expert Systems with Applications"
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
 pub_date:       "2023"
