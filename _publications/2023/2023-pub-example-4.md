@@ -3,7 +3,7 @@ title:          Discovering knowledge map and evolutionary path of HRM and ER: u
 date:           2023-07-04 00:01:00 +0800
 selected:       false
 pub:            "International Journal of Manpower"
-pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Journal</span><span class="badge badge-pill badge-custom badge-warning">Poster</span>'
+pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
 pub_date:       "2023"
 abstract: >-
   This work adopts state-of-the-art textual as well as semantic mining techniques to establish a comprehensive knowledge map for HRM and ER research. Furthermore, these results uniquely demonstrate the pluralistic ideological orientation at the social level is gradually integrated into more micro levels, such as enterprises and individuals. These are the contents that were mentioned from previous studies by scholars, but not meticulously verified and interpreted.
