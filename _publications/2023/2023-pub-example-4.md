@@ -8,7 +8,7 @@ pub_date:       "2023"
 abstract: >-
   This work adopts state-of-the-art textual as well as semantic mining techniques to establish a comprehensive knowledge map for HRM and ER research. Furthermore, these results uniquely demonstrate the pluralistic ideological orientation at the social level is gradually integrated into more micro levels, such as enterprises and individuals. These are the contents that were mentioned from previous studies by scholars, but not meticulously verified and interpreted.
   
-cover:          assets/images/covers/ivygpt.png
+cover:          assets/images/covers/IJM-HRM.png
 authors:
   - Dejian Yu
   - Bo Xiang†
