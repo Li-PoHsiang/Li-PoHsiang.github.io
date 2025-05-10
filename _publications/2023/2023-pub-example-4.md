@@ -12,6 +12,5 @@ cover:          assets/images/covers/ivygpt.png
 authors:
   - Dejian Yu
   - Bo Xiang†
-links:
-  Paper: https://www.emerald.com/insight/content/doi/10.1108/ijm-08-2022-0353/full/html
+
 ---
