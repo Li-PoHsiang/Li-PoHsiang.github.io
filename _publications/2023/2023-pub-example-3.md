@@ -10,14 +10,8 @@ abstract: >-
 
 cover:          assets/images/covers/lightr-yolo.png
 authors:
-  - Rongsheng Wang
-  - Yaofei Duan
-  - Menghan Hu
-  - Xiaohong Liu
-  - Yukun Li
-  - Qinquan Gao
-  - Tong Tong
-  - Tao Tan†
+  - Dejian Yu
+  - Bo Xiang†
 links:
   Paper: https://www.sciencedirect.com/science/article/pii/S0957417423006164
 ---
