@@ -1,5 +1,5 @@
 ---
-title:          Discovering knowledge map and evolutionary path of HRM and ER: using the STM combined with Word2vec
+title:          Discovering knowledge map and evolutionary path of HRM and ER using the STM combined with Word2vec
 date:           2023-07-04 00:01:00 +0800
 selected:       false
 pub:            "International Journal of Manpower"
