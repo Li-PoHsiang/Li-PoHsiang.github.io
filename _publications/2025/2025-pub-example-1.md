@@ -1,5 +1,5 @@
 ---
-title:          Exploring the evolution and collaboration in two-sided matching A comprehensive bibliometric and topic modeling analysis
+title:          Exploring the evolution and collaboration in two-sided matching: A comprehensive bibliometric and topic modeling analysis
 date:           2025-03-07 00:01:00 +0800
 selected:       false
 pub:            "International Journal of Intelligent Computing and Cybernetics"
