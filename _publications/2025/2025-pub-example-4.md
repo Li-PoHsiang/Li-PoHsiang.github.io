@@ -1,6 +1,6 @@
 ---
 title:          "Detecting technology opportunities appropriate for enterprise R&D: The synthesis analysis of industrial technical windows and enterprise competition relations"
-date:           2025-01-01 00:01:00 +0800
+date:           2025-05-01 00:01:00 +0800
 selected:       false
 pub:            "Technology in Society"
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
