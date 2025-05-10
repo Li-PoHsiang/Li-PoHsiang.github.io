@@ -1,5 +1,5 @@
 ---
-title:          LightR-YOLOv5： A Compact Rotating Detector for SARS-CoV-2 Antigen-Detection Rapid Diagnostic Test Results
+title:          Name
 date:           2023-07-01 00:01:00 +0800
 selected:       false
 pub:            "Displays"
