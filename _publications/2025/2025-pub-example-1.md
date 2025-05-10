@@ -1,9 +1,9 @@
 ---
 title:          Exploring the evolution and collaboration in two-sided matching A comprehensive bibliometric and topic modeling analysis
 date:           2025-04-20 00:01:00 +0800
-selected:       true
+selected:       false
 pub:            "International Journal of Intelligent Computing and Cybernetics"
-pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span>'
+pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
 pub_date:       "2025"
 
 abstract: >-
@@ -11,16 +11,8 @@ abstract: >-
   
 cover:          assets/images/covers/medvideocap.png
 authors:
-  - Rongsheng Wang
-  - Junying Chen
-  - Ke Ji
-  - Zhenyang Cai
-  - Shunian Chen
-  - Yunjin Yang
-  - Benyou Wang†
+  - Dejian Yu
+  - Bo Xiang†
 links:
-  Project: https://freedomintelligence.github.io/MedGen
-  Paper: https://arxiv.org/
-  Code: https://github.com/FreedomIntelligence/MedGen
-  Dataset: https://huggingface.co/datasets/FreedomIntelligence/MedVideoCap-55K
+  Paper: https://www.emerald.com/insight/content/doi/10.1108/ijm-08-2022-0353/full/html
 ---
