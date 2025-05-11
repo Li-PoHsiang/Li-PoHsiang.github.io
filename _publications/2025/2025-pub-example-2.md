@@ -12,7 +12,7 @@ abstract: >-
 cover:          assets/images/covers/ITJ-IV.gif
 authors:
   - Zhaoping Yan
-  - Bo Xiang
+  - Po Hsiang
   - Dejian Yu†
   - Jin Shi†
 links:
