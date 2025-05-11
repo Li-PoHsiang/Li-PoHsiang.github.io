@@ -9,7 +9,7 @@ pub_date:       "2024"
 abstract: >-
   Corporate social responsibility (CSR) has evolved over time into a mature interdisciplinary scientific field. However, there is a lack of research to explore the disciplinary association patterns and diffusion trajectories of scientific knowledge within this field. This research proposes a knowledge tracing framework that combines text analysis based on scientific texts and main path extraction based on citation networks to fill this gap.
   
-cover:          assets/images/covers/CSREM-CSR.jgp
+cover:          assets/images/covers/CSREM-CSR.jpg
 authors:
   - Dejian Yu
   - Po Hsiang†
