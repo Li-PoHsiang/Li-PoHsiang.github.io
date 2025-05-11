@@ -62,8 +62,7 @@ awards:
   date: 2019
 
 service:
-- name: Reviewer of <a href="https://asistdl.onlinelibrary.wiley.com/journal/23301643">Journal of the Association for Information Science and Technology (JASIST)</a>
-<a href="https://www.sciencedirect.com/journal/information-processing-and-management">Information Processing and Management (IPM)</a>
+- name: Reviewer of <a href="https://asistdl.onlinelibrary.wiley.com/journal/23301643">Journal of the Association for Information Science and Technology (JASIST)</a>, <a href="https://www.sciencedirect.com/journal/information-processing-and-management">Information Processing and Management (IPM)</a>
 
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
