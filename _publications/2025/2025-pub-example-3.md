@@ -12,6 +12,6 @@ abstract: >-
 cover:          assets/images/covers/EM-CBEC.jpg
 authors:
   - Dejian Yu
-  - Bo Xiang†
+  - Po Hsiang†
 
 ---
