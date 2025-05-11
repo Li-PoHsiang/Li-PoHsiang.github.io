@@ -12,7 +12,7 @@ abstract: >-
 cover:          assets/images/covers/CSREM-CSR.jgp
 authors:
   - Dejian Yu
-  - Bo Xiang†
+  - Po Hsiang†
   - Zhuoya Pan
 
 links:
