@@ -1,6 +1,6 @@
-primary_name: "Li-bo Hsiang"
+primary_name: "Po Hsiang"
 secondary_name: ""
-navbar_name: "Li-bo Hsiang's Home Page"
+navbar_name: "Po Hsiang's Home Page"
 
 positions:
   - '<span class="no-break"><img src="assets/images/badges/NJU.jpg" alt="Nanjing University" class="inline-badge"/></span> Nanjing University'
@@ -19,7 +19,7 @@ github: Li-boHsiang
 orcid: 0000-0002-3020-2223
 
 short_bio: >-
-  I am Li-bo Hsiang, I am pursuing my PhD degree in the <a href="https://scool.nju.edu.cn/">Intelligent Intelligence Laboratory</a> of Nanjing University and working under the supervision of Prof. <a href="https://im.nju.edu.cn/sj/list.htm">Jin Shi</a>.
+  I am Po Hsiang, I am pursuing my PhD degree in the <a href="https://scool.nju.edu.cn/">Intelligent Intelligence Laboratory</a> of Nanjing University and working under the supervision of Prof. <a href="https://im.nju.edu.cn/sj/list.htm">Jin Shi</a>.
   My research interests are innovation informetrics, medical informatics and large language model.
   
 show_portrait: true
@@ -75,4 +75,4 @@ service:
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
 footer_text: >-
-  Copyright © 2025 <a href="https://github.com/Li-boHsiang" target="_blank">Li-bo Hsiang</a>. All Rights Reserved.
+  Copyright © 2025 <a href="https://github.com/Li-boHsiang" target="_blank">Po Hsiang</a>. All Rights Reserved.
