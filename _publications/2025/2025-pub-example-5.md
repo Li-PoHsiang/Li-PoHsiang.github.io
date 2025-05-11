@@ -11,7 +11,7 @@ abstract: >-
   
 cover:          assets/images/covers/JIRM-STK.jpg
 authors:
-  - Bo Xiang
+  - Po Hsiang
   - Zhaoping Yan
   - Zhuoya Pan
   - Dejian Yu
