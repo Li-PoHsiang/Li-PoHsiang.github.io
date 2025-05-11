@@ -11,7 +11,7 @@ abstract: >-
 cover:          assets/images/covers/ESWA-AI.jpg
 authors:
   - Dejian Yu
-  - Bo Xiang†
+  - Po Hsiang†
 links:
   Paper: https://www.sciencedirect.com/science/article/pii/S0957417423006164
 ---
