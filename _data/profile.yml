@@ -62,15 +62,15 @@ awards:
   date: 2019
 
 service:
-- name: Reviewer of <a href="https://asistdl.onlinelibrary.wiley.com/journal/23301643">Journal of the Association for Information Science and Technology (JASIST)</a>
-, <a href="https://www.sciencedirect.com/journal/information-processing-and-management">Information Processing and Management (IPM)</a>
-, <a href="https://www.sciencedirect.com/journal/expert-systems-with-applications">Expert Systems with Applications (ESWA)</a>
-, <a href="https://www.nature.com/palcomms/">Humanities and Social Sciences Communications (HSSCOMMS)</a>
-, <a href="https://journals.plos.org/plosone/">PLOS One</a>
-, <a href="https://www.jmir.org/">Journal of Medical Internet Research (JMIR)</a>
-, <a href="https://www.emeraldgrouppublishing.com/journal/ijicc">International Journal of Intelligent Computing and Cybernetics (IJICC)</a>
-, <a href="https://www.tandfonline.com/journals/rjmc20">Journal of Marketing Communications (RJMC)</a>
-, <a href="https://www.inderscience.com/jhome.php?jcode=ijdats">International Journal of Data Analysis Techniques and Strategies (IJDATS)</a>.
+- name: Reviewer of <a href="https://asistdl.onlinelibrary.wiley.com/journal/23301643">Journal of the Association for Information Science and Technology (JASIST)</a>,
+<a href="https://www.sciencedirect.com/journal/information-processing-and-management">Information Processing and Management (IPM)</a>,
+<a href="https://www.sciencedirect.com/journal/expert-systems-with-applications">Expert Systems with Applications (ESWA)</a>,
+<a href="https://www.nature.com/palcomms/">Humanities and Social Sciences Communications (HSSCOMMS)</a>,
+<a href="https://journals.plos.org/plosone/">PLOS One</a>,
+<a href="https://www.jmir.org/">Journal of Medical Internet Research (JMIR)</a>,
+<a href="https://www.emeraldgrouppublishing.com/journal/ijicc">International Journal of Intelligent Computing and Cybernetics (IJICC)</a>,
+<a href="https://www.tandfonline.com/journals/rjmc20">Journal of Marketing Communications (RJMC)</a>,
+<a href="https://www.inderscience.com/jhome.php?jcode=ijdats">International Journal of Data Analysis Techniques and Strategies (IJDATS)</a>.
 
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
