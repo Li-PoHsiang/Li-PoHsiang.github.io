@@ -52,14 +52,14 @@ experience:
 - name: CITIC Securities
   logo: assets/images/badges/CITIC.png
   position: Research Assistant
-- name: Qinglan Education Consultation Co., LTD
-  logo: assets/images/badges/CITIC.png
+- name: Qinglan Education
+  logo: assets/images/badges/Qinglan.jpg
   position: Math Teacher
 - name: New Oriental
-  logo: assets/images/badges/CITIC.png
+  logo: assets/images/badges/XDF.png
   position: Math Teacher
-- name: Gaobo Yingnuo Information Technology Co., LTD
-  logo: assets/images/badges/CITIC.png
+- name: Geminno
+  logo: assets/images/badges/Geminno.png
   position: Front-end Engineer
 
 awards:
