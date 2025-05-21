@@ -15,5 +15,6 @@ authors:
   - Zhuoya Pan
   - Dejian Yu†
   - Wenjin Zuo
-
+links:
+  Paper: https://www.sciencedirect.com/science/article/pii/S0160791X25001411
 ---
