@@ -12,7 +12,7 @@ abstract: >-
 cover:          assets/images/covers/IJICC-TSM.png
 authors:
   - Xiaorong He
-  - Po Hsiang†
+  - Bo Xiang†
   - Zeshui Xu
   - Dejian Yu
 links:
