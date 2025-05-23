@@ -1,6 +1,6 @@
-primary_name: "Po Hsiang"
+primary_name: "Wave Hsiang"
 secondary_name: ""
-navbar_name: "Po Hsiang's Home Page"
+navbar_name: "Wave Hsiang's Home Page"
 
 positions:
   - '<span class="no-break"><img src="assets/images/badges/NJU.jpg" alt="Nanjing University" class="inline-badge"/></span> Nanjing University'
@@ -19,13 +19,13 @@ github: Li-PoHsiang
 orcid: 0000-0002-3020-2223
 
 short_bio: >-
-  I am Po Hsiang, I am pursuing my PhD degree in the <a href="https://scool.nju.edu.cn/">Intelligent Intelligence Laboratory</a> of Nanjing University and working under the supervision of Prof. <a href="https://im.nju.edu.cn/sj/list.htm">Jin Shi</a>.
+  I am Wave Hsiang, I am pursuing my PhD degree in the <a href="https://scool.nju.edu.cn/">Intelligent Intelligence Laboratory</a> of Nanjing University and working under the supervision of Prof. <a href="https://im.nju.edu.cn/sj/list.htm">Jin Shi</a>.
   My research interests are innovation informetrics, medical informatics and large language model.
   
 show_portrait: true
 portrait_url: assets/images/photos/PoHsiang.jpg
 portrait_caption: >-
-  我是项波，欢迎访问我的主页~
+  欢迎访问我的主页~
 
 education:
 - name: Nanjing University
