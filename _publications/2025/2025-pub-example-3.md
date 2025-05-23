@@ -13,5 +13,6 @@ cover:          assets/images/covers/EM-CBEC.jpg
 authors:
   - Dejian Yu
   - Bo Xiang†
-
+links:
+  Paper: https://link.springer.com/article/10.1007/s12525-025-00793-9
 ---
