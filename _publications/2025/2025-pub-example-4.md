@@ -11,7 +11,7 @@ abstract: >-
   
 cover:          assets/images/covers/TIS-TO.jpg
 authors:
-  - Po Hsiang
+  - Bo Xiang
   - Zhuoya Pan
   - Dejian Yu†
   - Wenjin Zuo
