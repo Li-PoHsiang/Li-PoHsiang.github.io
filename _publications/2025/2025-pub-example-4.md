@@ -16,5 +16,5 @@ authors:
   - Dejian Yu†
   - Wenjin Zuo
 links:
-  Paper: https://www.sciencedirect.com/science/article/pii/S0160791X25001411
+  Paper: https://www.sciencedirect.com/science/article/abs/pii/S0160791X25001411
 ---
