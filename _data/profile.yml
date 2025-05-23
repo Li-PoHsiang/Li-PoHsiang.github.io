@@ -1,11 +1,11 @@
-primary_name: "Wave Hsiang"
+primary_name: "Bo Xiang"
 secondary_name: ""
-navbar_name: "Wave Hsiang's Home Page"
+navbar_name: "Bo Xiang's Home Page"
 
 positions:
   - '<span class="no-break"><img src="assets/images/badges/NJU.jpg" alt="Nanjing University" class="inline-badge"/></span> Nanjing University'
 
-email: "wavehsiang@gmail.com"
+# email: "wavehsiang@gmail.com"
 gscholar: sVUWImoAAAAJ
 # sscholar: Rongsheng-Wang/2261313297
 github: Li-PoHsiang
@@ -19,7 +19,7 @@ github: Li-PoHsiang
 orcid: 0000-0002-3020-2223
 
 short_bio: >-
-  I am Wave Hsiang, I am pursuing my PhD degree in the <a href="https://scool.nju.edu.cn/">Intelligent Intelligence Laboratory</a> of Nanjing University and working under the supervision of Prof. <a href="https://im.nju.edu.cn/sj/list.htm">Jin Shi</a>.
+  I am Bo Xiang, I am pursuing my PhD degree in the <a href="https://scool.nju.edu.cn/">Intelligent Intelligence Laboratory</a> of Nanjing University and working under the supervision of Prof. <a href="https://im.nju.edu.cn/sj/list.htm">Jin Shi</a>.
   My research interests are innovation informetrics, medical informatics and large language model.
   
 show_portrait: true
