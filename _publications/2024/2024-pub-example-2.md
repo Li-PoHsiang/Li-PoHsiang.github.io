@@ -12,7 +12,7 @@ abstract: >-
 cover:          assets/images/covers/JOI-EST.jpg
 authors:
   - Dejian Yu
-  - Po Hsiang†
+  - Bo Xiang†
 links:
   Paper: https://www.sciencedirect.com/science/article/pii/S1751157724000646
 ---
