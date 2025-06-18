@@ -13,7 +13,7 @@ Based on the ternary fusion intelligence, the efficient paradigm of human-comput
 The idea of componentization has been widely recognized at the theoretical level, but its realization path in the specific practice of smart healthcare still faces challenges, especially the interaction mechanism between components, the dynamic splicing mode, and the scenario adaptability, which still need to be explored and refined.
 Ternary fusion intelligence facilitates flexible reorganization and precise adaptation of service components to meet diverse healthcare needs.
  
-cover:          assets/images/covers/JIRM-STK.jpg
+cover:          assets/images/covers/CIS-SH.jpg
 authors:
   - Bo Xiang
   - Hongyu Cai
