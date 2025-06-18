@@ -7,7 +7,7 @@ pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal
 pub_date:       "2025"
 
 abstract: >-
-  Under the technology-dominated competition pattern, it is practically significant to accurately assess the technological competitiveness of enterprises and locate their advantages to specific knowledge dimensions. This research constructs a multi-dimensional evaluation framework that integrates quality, scale and innovation. This framework reveals the differentiated capability performance of enterprises in different technology dimensions through multifaceted approaches such as semantic analysis, network analysis and patent value evaluation, combined with the probability distribution relationship between patents and knowledge.
+  This study introduces the theory of human-machine-thing ternary space to deconstruct the relevant subjects of smart healthcare services and analyze their bridging and fusion mechanisms. By dissecting the core modules and components of the service architecture, it integrates intelligent technologies to achieve the full-process transformation from data to knowledge.
  
 cover:          assets/images/covers/CIS-SH.jpg
 authors:
