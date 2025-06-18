@@ -3,7 +3,7 @@ title:          "Research on component-based service architecture for smart heal
 date:           2025-06-15 00:01:00 +0800
 selected:       false
 pub:            "2025 China Information Science Annual Conference"
-pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
+pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Conference</span>'
 pub_date:       "2025"
 
 abstract: >-
