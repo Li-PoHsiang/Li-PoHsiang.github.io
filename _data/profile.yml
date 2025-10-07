@@ -5,7 +5,7 @@ navbar_name: "Bo Xiang's Home Page"
 positions:
   - '<span class="no-break"><img src="assets/images/badges/NJU.jpg" alt="Nanjing University" class="inline-badge"/></span> Nanjing University'
 
-# email: "wavehsiang@gmail.com"
+email: "wavehsiang@gmail.com"
 gscholar: sVUWImoAAAAJ
 # sscholar: Rongsheng-Wang/2261313297
 github: Li-PoHsiang
