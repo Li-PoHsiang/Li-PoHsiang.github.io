@@ -10,7 +10,7 @@ abstract: >-
   Tracking technology evolution paths is crucial for understanding innovation dynamics. However, current studies frequently only use text-based methods, which limit their capacity to capture the structural linkages found in technology knowledge. To address this gap, this study proposes an integrated framework that combines text embedding and network embedding to analyze technology evolution paths. Using a dataset of 35983 patents in the battery electric vehicle (BEV) domain, we extract high-dimensional semantic features from patent texts while simultaneously capturing structural relationships between patents by constructing a heterogeneous information network. By fusing these two embeddings, we construct technology evolution paths based on cosine similarity measures. The proposed method effectively reveals knowledge diffusion patterns and emerging technology trends. In addition, through pair sample t-test and topic coherence analysis, we found that the proposed method identifies more comprehensive technology evolution trajectories.
 
 
-cover:          assets/images/covers/EM-CBEC.jpg
+cover:          assets/images/covers/TEM.png
 authors:
   - Zhaoping Yan
   - Bo Xiang
