@@ -16,6 +16,6 @@ authors:
   - Bo Xiang
   - Jin Shi†
 links:
-  Paper: https://link.springer.com/article/10.1007/s12525-025-00793-9](https://ieeexplore.ieee.org/document/11261858
+  Paper: https://ieeexplore.ieee.org/document/11261858
 
 ---
