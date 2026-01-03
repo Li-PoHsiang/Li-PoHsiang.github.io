@@ -1,7 +1,7 @@
 ---
 title:          "A hybrid embedding method for identifying technology evolution paths of patents: The case on battery electric vehicle industry"
 date:           2025-11-17 00:01:00 +0800
-selected:       True
+selected:       False
 pub:            "IEEE Transactions on Engineering Management"
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
 pub_date:       "2025"
