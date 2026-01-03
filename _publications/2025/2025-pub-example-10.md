@@ -1,7 +1,7 @@
 ---
 title:          "Analysis of the influence of papers integrating academic and social dimensions"
 date:           2025-11-01 00:01:00 +0800
-selected:       True
+selected:       False
 pub:            "Information Science"
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
 pub_date:       "2025"
