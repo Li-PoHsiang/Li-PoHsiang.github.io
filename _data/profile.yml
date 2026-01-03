@@ -19,7 +19,7 @@ github: Li-PoHsiang
 orcid: 0000-0002-3020-2223
 
 short_bio: >-
-  I am Bo Xiang, I am pursuing my PhD degree in the <a href="https://scool.nju.edu.cn/">Intelligent Intelligence Laboratory</a> of Nanjing University and working under the supervision of Prof. <a href="https://im.nju.edu.cn/sj/list.htm">Jin Shi</a>.
+  I am Bo Xiang, I am pursuing my PhD degree in the <a href="https://scool.nju.edu.cn/">Intelligent Intelligence Laboratory</a> of Nanjing University and working under the supervision of Prof. <a href="https://im.nju.edu.cn/info/1124/33651.htm">Jin Shi</a>.
   Research on AI in healthcare, patent and business information mining, generative artificial intelligence.
   
 show_portrait: true
@@ -30,7 +30,7 @@ portrait_caption: >-
 education:
 - name: Nanjing University
   logo: assets/images/badges/NJU.jpg
-  position: Ph.D in Information Resource Management (Supervisor is <a href="https://im.nju.edu.cn/sj/list.htm">Jin Shi</a>)
+  position: Ph.D in Information Resource Management (Supervisor is <a href="https://im.nju.edu.cn/info/1124/33651.htm">Jin Shi</a>)
   date: Sep. 2021 - Jul. 2024
   date: Sep. 2024 - now
 - name: Nanjing Audit University
