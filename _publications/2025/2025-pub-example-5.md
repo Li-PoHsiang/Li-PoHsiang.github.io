@@ -1,7 +1,7 @@
 ---
 title:          "Theoretical framework on synergistic mechanism and extraction strategy of scientific and technological knowledge driven by data-intelligence"
 date:           2025-03-31 00:01:00 +0800
-selected:       false
+selected:       True
 pub:            "Journal of Information Resources Management"
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
 pub_date:       "2025"
@@ -20,3 +20,4 @@ links:
   Paper: http://kns.cnki.net/kcms/detail/42.1812.G2.20250331.1004.004.html
 
 ---
+
