@@ -279,13 +279,13 @@ albums:
   display_en: Guangxi
   type: 自治区
   region: 华南
-  cover: assets/images/china/guangxi/QingxiuShan.jpg
+  cover: assets/images/china/guangxi/qingxiushan.jpg
   status: explored
   intro: 喀斯特山水、亚热带植被与民族文化共同构成广西的自然与人文景观。
   photos:
-  - file: assets/images/china/guangxi/QingxiuShan.jpg
+  - file: assets/images/china/guangxi/qingxiushan.jpg
     title: 青秀山
-    place: 南宁市
+    place: 南宁
     description: 青秀山以亚热带植被、山林空气与开阔景观构成广西山水风貌的一处温和切片。
 - slug: hainan
   display_name: 海南省
