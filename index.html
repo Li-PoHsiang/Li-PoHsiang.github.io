@@ -6,29 +6,78 @@ num_selected: 10
 ---
 {% include widgets/profile_card.html %}
 
+<section class="research-constellation">
+    <span class="section-eyebrow">Research Constellation</span>
+    <h2>Tracing knowledge, technology, and society through computational evidence.</h2>
+    <p class="lead-text">
+        My work connects information resource management with large language models, bibliometrics,
+        patent intelligence, healthcare knowledge systems, and machine learning. The homepage is designed
+        as a small research atelier: concise enough for academic identity, but with a visual language of
+        networks, signals, and knowledge flows.
+    </p>
+    <div class="row">
+        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+            <div class="research-node">
+                <div class="node-icon"><i class="fas fa-heartbeat"></i></div>
+                <h5>AI in Healthcare</h5>
+                <p>Computational health profiling, online health communities, medical agents, and patient-centered evidence extraction.</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+            <div class="research-node">
+                <div class="node-icon"><i class="fas fa-project-diagram"></i></div>
+                <h5>Knowledge Networks</h5>
+                <p>Bibliometrics, scientometrics, topic modeling, collaboration networks, and scholarly communication.</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+            <div class="research-node">
+                <div class="node-icon"><i class="fas fa-lightbulb"></i></div>
+                <h5>Patent Intelligence</h5>
+                <p>Patent theme mining, business information mining, innovation signals, and technology opportunity discovery.</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="research-node">
+                <div class="node-icon"><i class="fas fa-robot"></i></div>
+                <h5>Generative AI</h5>
+                <p>LLM-enhanced knowledge discovery, evidence coding, machine learning interpretation, and research automation.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 {% if site.data.display.homepage.show_experience %}
+<section class="home-section">
 {% include widgets/experience_card.html %}
+</section>
 {% endif %}
 
 {% if site.data.display.homepage.show_news %}
     {% assign count_news = site.news | size %}
     {% if count_news > 0 %}
+    <section class="home-section">
         {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
+    </section>
     {% endif %}
 {% endif %}
 
 {% if site.data.display.homepage.show_selected_publications %}
     {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
+    <section class="home-section">
     {% 
         include widgets/publication_card.html 
         publications=pubs
         title='<i class="fas fa-star"></i> Selected Publications'
     %}
+    </section>
 {% endif %}
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=APfhFivBy93Pbxsxl771tZ2_xEp_Dii3g8I77GgVeCA&cl=ffffff&w=200&t=tt&co=f8f9fa&ct=b32b42"></script>
+<div class="visitor-map my-4 text-center">
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=APfhFivBy93Pbxsxl771tZ2_xEp_Dii3g8I77GgVeCA&cl=ffffff&w=200&t=tt&co=f8f9fa&ct=b32b42"></script>
+</div>
 
-<script>
+<script color="38,75,139" opacity="0.20" count="80" zIndex="-1">
     !
     function() {
         function n(n, e, t) {
@@ -44,9 +93,9 @@ num_selected: 10
             return {
                 l: o,
                 z: n(i, "zIndex", -1),
-                o: n(i, "opacity", .5),
-                c: n(i, "color", "0,0,0"),
-                n: n(i, "count", 99)
+                o: n(i, "opacity", .2),
+                c: n(i, "color", "38,75,139"),
+                n: n(i, "count", 80)
             }
         }
         function o() {
@@ -58,7 +107,7 @@ num_selected: 10
             var n, e, t, o, m, l;
             s.forEach(function(i, x) {
                 for (i.x += i.xa, i.y += i.ya, i.xa *= i.x > a || i.x < 0 ? -1 : 1, i.ya *= i.y > c || i.y < 0 ? -1 : 1, r.fillRect(i.x - .5, i.y - .5, 1, 1), e = x + 1; e < u.length; e++) n = u[e],
-                null !== n.x && null !== n.y && (o = i.x - n.x, m = i.y - n.y, l = o * o + m * m, l < n.max && (n === y && l >= n.max / 2 && (i.x -= .03 * o, i.y -= .03 * m), t = (n.max - l) / n.max, r.beginPath(), r.lineWidth = t / 2, r.strokeStyle = "rgba(" + d.c + "," + (t + .2) + ")", r.moveTo(i.x, i.y), r.lineTo(n.x, n.y), r.stroke()))
+                null !== n.x && null !== n.y && (o = i.x - n.x, m = i.y - n.y, l = o * o + m * m, l < n.max && (n === y && l >= n.max / 2 && (i.x -= .03 * o, i.y -= .03 * m), t = (n.max - l) / n.max, r.beginPath(), r.lineWidth = t / 2, r.strokeStyle = "rgba(" + d.c + "," + (t + .12) + ")", r.moveTo(i.x, i.y), r.lineTo(n.x, n.y), r.stroke()))
             }),
             x(i)
         }
@@ -77,7 +126,7 @@ num_selected: 10
             max: 2e4
         };
         m.id = l,
-        m.style.cssText = "position:fixed;top:0;left:0;z-index:" + d.z + ";opacity:" + d.o,
+        m.style.cssText = "position:fixed;top:0;left:0;z-index:" + d.z + ";opacity:" + d.o + ";pointer-events:none;",
         e("body")[0].appendChild(m),
         o(),
         window.onresize = o,
@@ -93,8 +142,8 @@ num_selected: 10
         for (var s = [], f = 0; d.n > f; f++) {
             var h = w() * a,
             g = w() * c,
-            v = 2 * w() - 1,
-            p = 2 * w() - 1;
+            v = 1.1 * w() - .55,
+            p = 1.1 * w() - .55;
             s.push({
                 x: h,
                 y: g,

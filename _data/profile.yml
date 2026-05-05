@@ -19,8 +19,19 @@ github: Li-PoHsiang
 orcid: 0000-0002-3020-2223
 
 short_bio: >-
-  I am Bo Xiang, I am pursuing my PhD degree in the <a href="https://scool.nju.edu.cn/">Intelligent Intelligence Laboratory</a> of Nanjing University and working under the supervision of Prof. <a href="https://im.nju.edu.cn/info/1124/33651.htm">Jin Shi</a>.
-  Research on AI in healthcare, patent and business information mining, generative artificial intelligence.
+  I am a Ph.D. student in Information Resource Management at Nanjing University, working under the supervision of Prof. <a href="https://im.nju.edu.cn/info/1124/33651.htm">Jin Shi</a>.
+  My research explores how artificial intelligence reshapes healthcare knowledge, patent intelligence, business information mining, and scholarly communication.
+  I am particularly interested in using large language models, bibliometrics, network analysis, and machine learning to uncover hidden structures in complex information systems.
+
+research_interests:
+  - AI in Healthcare
+  - Large Language Models
+  - Bibliometrics
+  - Patent Intelligence
+  - Business Information Mining
+  - Knowledge Networks
+  - Machine Learning
+  - Generative Artificial Intelligence
   
 show_portrait: true
 portrait_url: assets/images/photos/Hsiang.jpg
@@ -30,16 +41,18 @@ portrait_caption: >-
 education:
 - name: Nanjing University
   logo: assets/images/badges/NJU.jpg
-  position: Ph.D in Information Resource Management (Supervisor is <a href="https://im.nju.edu.cn/info/1124/33651.htm">Jin Shi</a>)
-  date: Sep. 2021 - Jul. 2024
+  position: >-
+    Ph.D. in Information Resource Management (Supervisor: <a href="https://im.nju.edu.cn/info/1124/33651.htm">Jin Shi</a>)
   date: Sep. 2024 - now
 - name: Nanjing Audit University
   logo: assets/images/badges/NAU.png
-  position: M.S. in Business Adiministration (Supervisor is <a href="https://scholar.google.com/citations?user=y5nPV8cAAAAJ&hl=zh-CN&oi=sra">Dejian Yu</a>)
+  position: >-
+    M.S. in Business Administration (Supervisor: <a href="https://scholar.google.com/citations?user=y5nPV8cAAAAJ&hl=zh-CN&oi=sra">Dejian Yu</a>)
   date: Sep. 2021 - Jul. 2024
 - name: East China University of Technology
   logo: assets/images/badges/ECUT.png
-  position: B.S. in Mathematics and Applied Mathematics (Supervisor is <a href="https://lxy.ecut.edu.cn/85/d0/c9162a34256/page.htm">Zhihui Yang</a>)
+  position: >-
+    B.S. in Mathematics and Applied Mathematics (Supervisor: <a href="https://lxy.ecut.edu.cn/85/d0/c9162a34256/page.htm">Zhihui Yang</a>)
   date: Sep. 2017 - Jul. 2021
   
 experience:
@@ -64,11 +77,11 @@ awards:
   date: 2019
 - name: The Interdisciplinary Contest in Modeling - Meritorious Winner
   date: 2019
-- name: Teddy Cup National Data Mining Challenge - National Second Price
+- name: Teddy Cup National Data Mining Challenge - National Second Prize
   date: 2019
 
 service:
-- name: Reviewer of <a href="https://asistdl.onlinelibrary.wiley.com/journal/23301643">Journal of the Association for Information Science and Technology</a>, <a href="https://www.sciencedirect.com/journal/computers-in-human-behavior">Computers in Human Behavior</a>, <a href="https://www.jmir.org/">Journal of Medical Internet Research</a>, <a href="https://www.sciencedirect.com/journal/information-processing-and-management">Information Processing and Management</a>, <a href="https://link.springer.com/journal/10115">Knowledge and Information Systems</a>, <a href="https://www.sciencedirect.com/journal/telematics-and-informatics">Telematics and Informatic</a>, <a href="https://www.sciencedirect.com/journal/expert-systems-with-applications">Electronic Markets</a>, <a href="https://www.sciencedirect.com/journal/expert-systems-with-applications">Expert Systems with Applications</a>, <a href="https://www.sciencedirect.com/journal/tourism-management-perspectives">Tourism Management Perspectives</a>, <a href="https://www.nature.com/srep/">Scientific Reports</a>, <a href="https://www.nature.com/palcomms/">Humanities and Social Sciences Communications</a>, <a href="https://www.frontiersin.org/journals/psychology">Frontiers in Psychology</a>, <a href="https://journals.plos.org/plosone/">PLOS One</a>, <a href=" https://www.sciencedirect.com/journal/acta-psychologica">Acta Psychologica</a>, <a href=" https://medinform.jmir.org/">JMIR Medical Informatics</a>, <a href=" https://mhealth.jmir.org/">JMIR mHealth & uHealth</a>, <a href=" https://pediatrics.jmir.org/">JMIR Pediatrics & Parenting</a>, <a href="https://www.emeraldgrouppublishing.com/journal/ijicc">International Journal of Intelligent Computing and Cybernetics</a>, <a href="https://www.tandfonline.com/journals/rjmc20">Journal of Marketing Communications</a>, <a href=" https://www.sciencedirect.com/journal/energy-and-climate-change">Energy and Climate Change</a>.
+- name: Reviewer of <a href="https://asistdl.onlinelibrary.wiley.com/journal/23301643">Journal of the Association for Information Science and Technology</a>, <a href="https://www.sciencedirect.com/journal/computers-in-human-behavior">Computers in Human Behavior</a>, <a href="https://www.jmir.org/">Journal of Medical Internet Research</a>, <a href="https://www.sciencedirect.com/journal/information-processing-and-management">Information Processing and Management</a>, <a href="https://link.springer.com/journal/10115">Knowledge and Information Systems</a>, <a href="https://www.sciencedirect.com/journal/telematics-and-informatics">Telematics and Informatics</a>, <a href="https://www.emerald.com/insight/publication/issn/1066-2243">Internet Research</a>, <a href="https://www.sciencedirect.com/journal/expert-systems-with-applications">Expert Systems with Applications</a>, <a href="https://www.sciencedirect.com/journal/tourism-management-perspectives">Tourism Management Perspectives</a>, <a href="https://www.nature.com/srep/">Scientific Reports</a>, <a href="https://www.nature.com/palcomms/">Humanities and Social Sciences Communications</a>, <a href="https://www.frontiersin.org/journals/psychology">Frontiers in Psychology</a>, <a href="https://journals.plos.org/plosone/">PLOS One</a>, <a href="https://www.sciencedirect.com/journal/acta-psychologica">Acta Psychologica</a>, <a href="https://medinform.jmir.org/">JMIR Medical Informatics</a>, <a href="https://mhealth.jmir.org/">JMIR mHealth & uHealth</a>, <a href="https://pediatrics.jmir.org/">JMIR Pediatrics & Parenting</a>, <a href="https://www.emeraldgrouppublishing.com/journal/ijicc">International Journal of Intelligent Computing and Cybernetics</a>, <a href="https://www.tandfonline.com/journals/rjmc20">Journal of Marketing Communications</a>, <a href="https://www.sciencedirect.com/journal/energy-and-climate-change">Energy and Climate Change</a>.
 
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
