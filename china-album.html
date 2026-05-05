@@ -1,0 +1,34 @@
+---
+layout: default
+title: China Album
+navbar_name: China
+extra_css:
+  - /assets/css/china.css
+extra_js:
+  - /assets/js/china.js
+---
+
+<section class="album-page-hero" id="album-page-hero">
+  <span class="section-eyebrow">China / Album</span>
+  <h1 id="album-title">Album</h1>
+  <p id="album-intro"></p>
+  <a class="album-back-link" href="{{ '/china' | relative_url }}">← Back to China</a>
+</section>
+
+<section class="photo-gallery-grid" id="photo-gallery-grid" aria-label="Album photos"></section>
+
+<div id="lightbox" class="lightbox" onclick="ChinaAtlas.closeLightbox()" aria-hidden="true">
+  <div class="lightbox-content" onclick="event.stopPropagation()" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+    <button class="lightbox-close" type="button" onclick="ChinaAtlas.closeLightbox()" aria-label="Close">×</button>
+    <img id="lightbox-img" src="" alt="">
+    <div class="lightbox-text">
+      <h2 id="lightbox-title"></h2>
+      <p id="lightbox-desc"></p>
+      <button class="ai-desc-btn" id="ai-desc-btn" type="button">复制 AI 描述提示词</button>
+    </div>
+  </div>
+</div>
+
+<script type="application/json" id="china-album-data">
+{{ site.data.china_albums.albums | jsonify }}
+</script>

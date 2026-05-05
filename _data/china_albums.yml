@@ -1,0 +1,459 @@
+intro:
+  title: China
+  subtitle: Mountains, Rivers, Cities, and Cultural Landscapes
+  description: 中国幅员辽阔，山河壮丽，既有江河湖海、雪域高原、林海草原，也有历史城市、边疆风貌与多元文化景观。这个页面不是旅行记录，而是一个持续生长的中国影像相册，用来收藏与呈现中国大好河山及各地风物。尚未放入图片的省级相册会显示为“等待探索”。
+albums:
+- slug: beijing
+  display_name: 北京市
+  display_en: Beijing
+  type: 直辖市
+  region: 华北
+  cover: assets/images/china/beijing/gugong.jpg
+  status: explored
+  intro: 北京是中国首都，也是历史文化与现代城市景观高度交织的中心城市。这里既有故宫、天坛、长城、颐和园等承载古都文脉的历史遗存，也有中轴线、胡同街巷、现代建筑与城市公共空间共同构成的时代风貌，展现出厚重、庄严而开放的都城气质。
+  photos: 
+  - file: assets/images/china/beijing/gugong.jpg
+    title: 故宫
+    place: 北京
+    description: 故宫位于北京中轴线核心位置，是中国古代宫城建筑的代表。红墙、黄瓦、宫门与层层院落共同构成了庄严而恢宏的空间秩序，既展现出明清皇家建筑的制度气象，也承载着中国古都文明中深厚的历史记忆。
+  - file: assets/images/china/beijing/tiananmen.jpg
+    title: 天安门
+    place: 北京
+    description: 天安门坐落于北京城市中轴线上，是中国近现代国家记忆与首都形象的重要地标。城楼庄重开阔，红墙金瓦与广场空间相互映衬，形成了具有仪式感和历史厚度的城市景观，也展现出北京作为国家中心的庄严气质。
+- slug: tianjin
+  display_name: 天津市
+  display_en: Tianjin
+  type: 直辖市
+  region: 华北
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: hebei
+  display_name: 河北省
+  display_en: Hebei
+  type: 省
+  region: 华北
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: shanxi
+  display_name: 山西省
+  display_en: Shanxi
+  type: 省
+  region: 华北
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: inner-mongolia
+  display_name: 内蒙古自治区
+  display_en: Inner Mongolia
+  type: 自治区
+  region: 华北
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: liaoning
+  display_name: 辽宁省
+  display_en: Liaoning
+  type: 省
+  region: 东北
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: jilin
+  display_name: 吉林省
+  display_en: Jilin
+  type: 省
+  region: 东北
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: heilongjiang
+  display_name: 黑龙江省
+  display_en: Heilongjiang
+  type: 省
+  region: 东北
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: shanghai
+  display_name: 上海市
+  display_en: Shanghai
+  type: 直辖市
+  region: 华东
+  cover: assets/images/china/shanghai/dongfangmingzhu.jpg
+  status: explored
+  intro: 上海地处长江入海口，是中国重要的国际化大都市。这里既有外滩、石库门与近代城市记忆，也有陆家嘴天际线、黄浦江两岸和现代公共空间共同构成的都市景观，展现出海派文化、开放气质与现代城市活力交织而成的独特风貌。
+  photos: 
+  - file: assets/images/china/shanghai/dongfangmingzhu.jpg
+    title: 东方明珠
+    place: 上海
+    description: 东方明珠矗立于黄浦江畔，是上海现代城市天际线中极具辨识度的地标。塔身与陆家嘴高楼群相互映衬，连接着浦江两岸的城市视野，也象征着上海从近代港口城市走向现代国际都市的开放姿态与时代活力。
+- slug: jiangsu
+  display_name: 江苏省
+  display_en: Jiangsu
+  type: 省
+  region: 华东
+  cover: assets/images/china/jiangsu/yangshan.jpg
+  status: explored
+  intro: 江苏地处中国东部沿海与长江下游地区，江河湖泊、城市园林与历史文脉交织成独特的江南图景。这里既有南京等古都城市的历史厚度，也有水乡、丘陵、园林与现代城市共同构成的多层次地域景观。
+  photos:
+  - file: assets/images/china/jiangsu/yangshan.jpg
+    title: 羊山公园
+    place: 南京
+    description: 羊山公园位于南京城北，以开阔的山体景观、草木绿意与城市休闲空间相互交织为特色。山坡、步道与林木共同营造出舒展而宁静的自然氛围，使其成为城市之中感受地形起伏、绿色空间与日常生活节奏的地方。
+  - file: assets/images/china/jiangsu/shuihu.jpg
+    title: 水浒英雄城
+    place: 无锡
+    description: 台楼阁、古街市井与梁山人物意象交织在一起，呈现出一种兼具江南水乡气息与古典侠义想象的空间氛围。
+- slug: zhejiang
+  display_name: 浙江省
+  display_en: Zhejiang
+  type: 省
+  region: 华东
+  cover: assets/images/china/zhejiang/xiaocunzhuang.jpg
+  status: explored
+  intro: 浙江地处中国东南沿海，山水、人文与江南城镇景观相互交织。这里既有丘陵水乡、古村老街与青墙黛瓦，也有深厚的宋韵文化和细腻的地方生活气息，展现出江南山河的温润、雅致与绵长。
+  photos: 
+  - file: assets/images/china/zhejiang/xiaocunzhuang.jpg
+    title: 廿四都
+    place: 江山
+    description: 廿四都保留着江南古村的温润气质。青墙黛瓦、老街巷道与地方烟火气交织在一起，仿佛让千年宋韵仍在日常生活中缓缓流动。糖糕甜香、炊烟与村落肌理共同构成了一幅安静而亲切的江南生活画面。
+  - file: assets/images/china/zhejiang/yaolin.jpg
+    title: 地下溶洞
+    place: 桐庐
+    description: 在幽深的地下溶洞中，五彩斑斓的人工灯光将无数奇形怪状的钟乳石和石笋点亮，营造出一个梦幻、神秘而又宏大的“瑶琳仙境”，仿佛置身于一座地下的光影迷宫。
+  - file: assets/images/china/zhejiang/meihuazhou.jpg
+    title: 梅花洲
+    place: 嘉兴
+    description: 梅花洲呈现出典型江南园林与古镇水乡交织的清雅气质。白墙黑瓦的建筑掩映于繁茂绿树之间，石拱门在枝叶间若隐若现，使空间显得幽静而含蓄。这里既有江南建筑的古朴韵味，也保留着远离喧嚣的园林意境。
+  - file: assets/images/china/zhejiang/tongjunshan.jpg
+    title: 桐君山
+    place: 桐庐
+    description: 郁郁葱葱的绿树如重重巨伞，将一座幽静的白墙黑瓦建筑半掩在土坡之上，其古朴的石拱门在繁茂的枝叶间若隐若现，尽显江南园林离尘脱俗的静谧之美。
+  - file: assets/images/china/zhejiang/xihu.jpg
+    title: 西湖
+    place: 杭州
+    description: 在淡灰色、微朦的天空下，开阔的西湖湖面上，多艘带蓬的摇橹船载着游客缓缓穿梭，远处的连绵群山在薄雾中形成淡淡的剪影，前景的岸边石柱与铁链共同勾勒出一幅经典的江南水乡画卷。
+- slug: anhui
+  display_name: 安徽省
+  display_en: Anhui
+  type: 省
+  region: 华东
+  cover: assets/images/china/anhui/langyage.jpg
+  status: explored
+  intro: 安徽地处中国华东腹地，山水、人文与历史遗存交相辉映。这里既有江淮平原的开阔，也有皖南山水的清秀与徽派文化的深厚积淀，展现出兼具自然景观、历史文脉与地域风貌的山河气质。
+  photos: 
+  - file: assets/images/china/anhui/langyage.jpg
+    title: 琅琊阁
+    place: 滁州
+    description: 飞檐凌空的琅琊阁巍然傲立于碧空之下，古朴苍劲的木楼与厚重的青石基座交相辉映，仿佛在静默中俯瞰着世间翻滚的千古风云。
+- slug: fujian
+  display_name: 福建省
+  display_en: Fujian
+  type: 省
+  region: 华东
+  cover: assets/images/china/fujian/luojiasi.jpg
+  status: explored
+  intro: 福建地处中国东南沿海，山海相依、港湾纵横，自然景观与海洋文化、宗教建筑和地方民俗相互交织。这里既有面向大海的开阔气象，也有古寺、山林与城市烟火共同构成的闽地文化景观。
+  photos: 
+  - file: assets/images/china/fujian/luojiasi.jpg
+    title: 洛伽寺
+    place: 泉州
+    description: 女子手持长竿站在海边沙滩悠闲垂钓，远景中，一座古老的寺庙建筑群矗立在波光粼粼的海中，背景是云纹独特、蓝天白云的天空。
+  - file: assets/images/china/fujian/nanshaolin.jpg
+    title: 南少林
+    place: 泉州
+    description: “少林禅寺”的匾额在古树繁荫掩映下的红瓦古寺上巍然挺立，石阶前的香炉青烟袅袅，尽显禅意静谧。
+- slug: jiangxi
+  display_name: 江西省
+  display_en: Jiangxi
+  type: 省
+  region: 华东
+  cover: assets/images/china/jiangxi/liushiyan.jpg
+  status: explored
+  intro: 江西地处中国东南腹地，山水形胜与人文积淀相互交织。这里既有丹霞崖壁、群山溪谷等自然景观，也有古村老街、青墙黛瓦与地方生活共同构成的江南文化气息，展现出赣地山河的清秀、厚重与悠长。
+  photos: 
+  - file: assets/images/china/jiangxi/liushiyan.jpg
+    title: 六石岩
+    place: 广丰
+    description: 赤壁丹崖如擎天巨柱般拔地而起，千仞绝壁上斧劈刀削般的岁月刻痕，在莽莽苍翠中尽显孤傲绝尘的雄奇。
+  - file: assets/images/china/jiangxi/jingdezhen.jpg
+    title: 御窑博物馆
+    place: 景德镇
+    description: 御窑博物馆以窑炉般的拱形空间回应景德镇千年陶瓷文脉，红砖肌理与光影层次交织出厚重而现代的建筑气质。它既承载着官窑遗址的历史记忆，也以当代设计语言展现出瓷都文化的延续与新生。
+  - file: assets/images/china/jiangxi/tengwangge.jpg
+    title: 滕王阁
+    place: 南昌
+    description: 滕王阁临江而立，层楼飞檐、气势恢宏，是南昌城市景观与赣江文化记忆的重要象征。楼阁建筑的庄重形制与江水、天光相互映照，使这里既有历史名楼的典雅气象，也延续着“落霞与孤鹜齐飞”的诗意想象。
+  - file: assets/images/china/jiangxi/shuangxikou.jpg
+    title: 双溪口
+    place: 广丰
+    description: 枯树虬枝斜指微凉的苍穹，远山黛色间升腾起袅袅轻烟，半掩着山坡上的红瓦农舍，将赣东山野的清冷寂寥与微温的烟火气氤氲得恰到好处。
+- slug: shandong
+  display_name: 山东省
+  display_en: Shandong
+  type: 省
+  region: 华东
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: henan
+  display_name: 河南省
+  display_en: Henan
+  type: 省
+  region: 华中
+  cover: assets/images/china/henan/dasongxilou.jpg
+  status: explored
+  intro: 河南地处中原腹地，是中华文明的重要发源地之一。黄河流域、嵩山山脉、洛阳古都、开封城韵与广阔平原共同构成了厚重而开阔的中原图景，展现出历史文脉、山河形胜与农耕文明交织而成的地域气质。
+  photos: 
+  - file: assets/images/china/henan/dasongxilou.jpg
+    title: 大宋戏楼
+    place: 开封
+    description: 夜幕降临，开封的大宋戏楼金碧辉煌，楼前广场人山人海的夜市繁华，尽显这座千年古都生生不息的烟火气与盛世神韵。
+- slug: hubei
+  display_name: 湖北省
+  display_en: Hubei
+  type: 省
+  region: 华中
+  cover: assets/images/china/hubei/lihuang.jpg
+  status: explored
+  intro: 湖北地处长江中游，江河湖泊纵横，山地、平原与城市景观相互交织。这里既有武汉江城风貌与长江气象，也有武当山、神农架、东湖等自然与人文景观，呈现出荆楚大地兼具开阔水韵与历史厚度的山河格局。
+  photos: 
+  - file: assets/images/china/hubei/lihuang.jpg
+    title: 黎黄陂路
+    place: 武汉
+    description: 黎黄陂路保留着武汉近代街区的历史肌理，老建筑、梧桐树影与街巷生活交织在一起，呈现出江城独有的文艺气息与城市记忆。
+- slug: hunan
+  display_name: 湖南省
+  display_en: Hunan
+  type: 省
+  region: 华中
+  cover: assets/images/china/hunan/juzizhou.jpg
+  status: explored
+  intro: 湖南地处中国中南部，湘江贯穿南北，山水、湖泊与丘陵共同塑造出丰富的地域景观。这里既有张家界的奇峰异石、洞庭湖的开阔水色，也有长沙街巷的烟火气与湘西文化的神秘色彩，展现出湖湘大地雄奇、热烈而富有生命力的山河气象。
+  photos: 
+  - file: assets/images/china/hunan/juzizhou.jpg
+    title: 橘子洲头
+    place: 长沙
+    description: 橘子洲头静卧湘江之中，江水两岸铺展出长沙的城市轮廓与湖湘山水的开阔气象。洲上绿意、江面风光与历史文化记忆相互交织，使这里成为凝望长沙、理解湖湘精神的一处重要空间。
+  - file: assets/images/china/hunan/qishierqilou.jpg
+    title: 七十二奇楼
+    place: 张家界
+    description: 璀璨的灯火勾勒出层层叠叠、高耸入云的土家族吊脚楼群，中央巨大的镂空门洞宛如一扇开启异次元的奇幻之门，将神秘的湘西底蕴与赛博朋克般的宏大夜景完美交织。
+  - file: assets/images/china/hunan/pozijie.jpg
+    title: 坡子街
+    place: 长沙
+    description: 密密麻麻的霓虹灯牌将繁华的夜空彻底点燃，街头巷尾弥漫着臭豆腐与热辣烧烤的诱人香气，伴随着熙熙攘攘的人潮，沸腾出星城长沙最火热、最鲜活的市井狂欢。
+- slug: guangdong
+  display_name: 广东省
+  display_en: Guangdong
+  type: 省
+  region: 华南
+  cover: assets/images/china/guangdong/jiaotang.jpg
+  status: explored
+  intro: 广东地处中国南部沿海，山海相连、江河入海、城市繁盛，是岭南文化与现代都市景观交织最为鲜明的地区之一。这里既有广州、深圳等开放活跃的城市空间，也有骑楼街巷、近代建筑、珠江水系与高校文脉共同构成的南方地域气质。
+  photos: 
+  - file: assets/images/china/guangdong/jiaotang.jpg
+    title: 石室圣心大教堂
+    place: 广州
+    description: 石室圣心大教堂是广州具有代表性的历史建筑之一，哥特式尖拱、玫瑰花窗与石砌立面共同营造出庄重而典雅的空间气质。它静立于城市街区之中，将岭南都市风貌、近代建筑记忆与宗教文化景观交织在一起。
+  - file: assets/images/china/guangdong/guangzhouta.jpg
+    title: 广州塔
+    place: 广州
+    description: 广州塔矗立于珠江之畔，是广州现代城市天际线中最具辨识度的地标之一。修长而流动的塔身与珠江新城高楼群相互映衬，展现出岭南都市开放、轻盈而富有活力的现代气质，也连接着广州传统水岸与当代城市发展的空间想象。
+  - file: assets/images/china/guangdong/zhongshandaxue.jpg
+    title: 中山大学
+    place: 广州
+    description: 中山大学承载着广州深厚的教育文脉与校园记忆。红砖建筑、林荫道路与岭南校园空间相互交织，形成一种沉静而厚重的学术氛围。这里既保留着近代高等教育的发展痕迹，也展现出南方大学开放、包容与求知的精神气质。
+- slug: guangxi
+  display_name: 广西壮族自治区
+  display_en: Guangxi
+  type: 自治区
+  region: 华南
+  cover: assets/images/china/guangxi/QingxiuShan.jpg
+  status: explored
+  intro: 喀斯特山水、亚热带植被与民族文化共同构成广西的自然与人文景观。
+  photos:
+  - file: assets/images/china/guangxi/QingxiuShan.jpg
+    title: 青秀山
+    place: 南宁市
+    description: 青秀山以亚热带植被、山林空气与开阔景观构成广西山水风貌的一处温和切片。
+- slug: hainan
+  display_name: 海南省
+  display_en: Hainan
+  type: 省
+  region: 华南
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: chongqing
+  display_name: 重庆市
+  display_en: Chongqing
+  type: 直辖市
+  region: 西南
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: sichuan
+  display_name: 四川省
+  display_en: Sichuan
+  type: 省
+  region: 西南
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: guizhou
+  display_name: 贵州省
+  display_en: Guizhou
+  type: 省
+  region: 西南
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: yunnan
+  display_name: 云南省
+  display_en: Yunnan
+  type: 省
+  region: 西南
+  cover: assets/images/china/yunnan/erhai.jpg
+  status: explored
+  intro: 云南地处中国西南边陲，山川纵横、湖泊清澈、气候多样。这里既有高原湖泊的开阔宁静，也有雪山峡谷的壮丽层次，自然景观与民族文化共同构成了独特而丰富的西南山河图景。
+  photos:
+  - file: assets/images/china/yunnan/erhai.jpg
+    title: 洱海
+    place: 丽江
+    description: 苍山为伴，碧空如洗，一叶绿舟静静停泊在波光粼粼的洱海之上，远眺着对岸的白墙黛瓦与连绵群山，尽显岁月静好。
+  - file: assets/images/china/yunnan/lanyuegu.jpg
+    title: 蓝月谷
+    place: 丽江
+    description: 背景里黄绿相间的秋季森林，以及半山腰弥漫的云雾，完美展现了雪山脚下冷杉和阔叶林交织的高山峡谷风貌。
+  - file: assets/images/china/yunnan/pobu.jpg
+    title: 蓝月谷瀑布群
+    place: 丽江
+    description: 清澈纯净的雪山融水顺着层层叠叠的岩石奔流而下，形成了一道宽阔而秀丽的水帘瀑布。
+- slug: xizang
+  display_name: 西藏自治区
+  display_en: Xizang
+  type: 自治区
+  region: 西南
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: shaanxi
+  display_name: 陕西省
+  display_en: Shaanxi
+  type: 省
+  region: 西北
+  cover: assets/images/china/shaanxi/guchengqiang.jpg
+  status: explored
+  intro: 陕西地处中国西北与中原腹地的交汇处，是中华文明和古代都城文化的重要承载地。这里既有秦岭山脉、黄土高原等壮阔自然景观，也有西安古城、秦始皇陵兵马俑、大雁塔等历史遗存，展现出厚重、雄浑而深远的关中文脉与山河气象。
+  photos: 
+  - file: assets/images/china/shaanxi/bingmayong.jpg
+    title: 兵马俑
+    place: 西安
+    description: 整齐列阵的陶俑仿佛仍在守望两千年前的帝国秩序。它以宏大的规模、细致的人物形态与肃穆的地下军阵，展现出秦汉文明的雄浑气象，也凝聚着关中大地深厚的历史记忆。
+  - file: assets/images/china/shaanxi/guchengqiang.jpg
+    title: 古城墙
+    place: 西安
+    description: 巍峨的青砖古城楼在繁茂的绿荫掩映下静立于碧空之中，一汪清幽的护城河水沿城蜿蜒流淌，将古都长安的千年厚重与勃勃生机温柔交织。
+- slug: gansu
+  display_name: 甘肃省
+  display_en: Gansu
+  type: 省
+  region: 西北
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: qinghai
+  display_name: 青海省
+  display_en: Qinghai
+  type: 省
+  region: 西北
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: ningxia
+  display_name: 宁夏回族自治区
+  display_en: Ningxia
+  type: 自治区
+  region: 西北
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: xinjiang
+  display_name: 新疆维吾尔自治区
+  display_en: Xinjiang
+  type: 自治区
+  region: 西北
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: taiwan
+  display_name: 台湾省
+  display_en: Taiwan
+  type: 省
+  region: 港澳台
+  cover: ''
+  status: waiting
+  intro: 等待探索。
+  photos: []
+- slug: hong-kong
+  display_name: 香港特别行政区
+  display_en: Hong Kong
+  type: 特别行政区
+  region: 港澳台
+  cover: assets/images/china/hongkong/Youmadi.jpg
+  status: explored
+  intro: 山海之间的城市空间，兼具历史建筑、港湾景观与街巷生活。
+  photos:
+  - file: assets/images/china/hongkong/Youmadi.jpg
+    title: 油麻地警署
+    place: 香港
+    description: 油麻地警署保留了香港旧城区的历史肌理。建筑立面、街巷尺度与城市生活相互交叠，呈现出香港独特的城市记忆。
+  - file: assets/images/china/hongkong/Taipingshan.jpg
+    title: 香港太平山
+    place: 香港
+    description: 太平山俯瞰维多利亚港与城市天际线，山、海、港湾与高楼共同形成香港最具层次感的空间景观。
+  - file: assets/images/china/hongkong/Miaojie.jpg
+    title: 香港庙街
+    place: 香港
+    description: 庙街浓缩了香港街市、招牌、灯光与日常生活的地方气息，是城市烟火与社区记忆的集中呈现。
+- slug: macao
+  display_name: 澳门特别行政区
+  display_en: Macao
+  type: 特别行政区
+  region: 港澳台
+  cover: assets/images/china/macao/xinpujing.jpg
+  status: explored
+  intro: 澳门位于中国南部珠江口西岸，是一座融合中西文化、海港记忆与现代休闲城市景观的特别行政区。历史街区、葡式建筑、滨海空间与璀璨夜景共同构成了澳门多元而富有层次的城市气质，也展现出其在传统与现代之间交织生成的独特风貌。
+  photos: 
+  - file: assets/images/china/macao/meigaomei.jpg
+    title: 澳门美高梅
+    place: 澳门
+    description: 伴随着那声经典的狮吼，美高梅为世界留下了无数永恒的光影传奇。
+  - file: assets/images/china/macao/weinisiren.jpg
+    title: 澳门威尼斯人
+    place: 澳门
+    description: 湛蓝的运河水倒映着两岸意式风情的暖黄建筑，逼真的穹顶天幕与精致的石拱桥交相辉映，在室内空间里完美复刻了一场永不落幕的威尼斯水乡旧梦。
+  - file: assets/images/china/macao/xinpujing.jpg
+    title: 澳门新葡京
+    place: 澳门
+    description: 绚烂的晚霞如同温柔的滤镜铺满天空，金碧辉煌的新葡京宛如一朵盛开的巨型金莲般傲立于跨海大桥尽头，将这座东方赌城的奢华底色与魔幻气息展现得淋漓尽致。

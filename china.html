@@ -1,0 +1,93 @@
+---
+layout: default
+title: China
+navbar_name: China
+extra_css:
+  - /assets/css/china.css
+extra_js:
+  - /assets/js/china.js
+---
+
+<section class="china-hero">
+  <div class="china-hero-content">
+    <span class="section-eyebrow">China Atlas</span>
+    <h1>{{ site.data.china_albums.intro.title }}</h1>
+    <p class="china-subtitle">{{ site.data.china_albums.intro.subtitle }}</p>
+    <p>{{ site.data.china_albums.intro.description }}</p>
+  </div>
+</section>
+
+{% assign explored_count = 0 %}
+{% assign waiting_count = 0 %}
+{% for item in site.data.china_albums.albums %}
+  {% assign photo_count = item.photos | size %}
+  {% if photo_count > 0 %}
+    {% assign explored_count = explored_count | plus: 1 %}
+  {% else %}
+    {% assign waiting_count = waiting_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+<section class="china-stats" aria-label="China album statistics">
+  <div><strong>{{ site.data.china_albums.albums | size }}</strong><span>省级相册</span></div>
+  <div><strong>{{ explored_count }}</strong><span>已有图片</span></div>
+  <div><strong>{{ waiting_count }}</strong><span>等待探索</span></div>
+</section>
+
+<section class="china-search-panel" aria-label="China album search and filters">
+  <input type="text" id="album-search" placeholder="搜索省份、自治区、直辖市、特别行政区，例如：香港、广西、台湾、北京">
+  <div class="china-filter-row" role="group" aria-label="Album filters">
+    <button class="china-filter active" type="button" data-filter="all">全部</button>
+    <button class="china-filter" type="button" data-filter="explored">已有图片</button>
+    <button class="china-filter" type="button" data-filter="waiting">等待探索</button>
+    <button class="china-filter" type="button" data-filter="华北">华北</button>
+    <button class="china-filter" type="button" data-filter="东北">东北</button>
+    <button class="china-filter" type="button" data-filter="华东">华东</button>
+    <button class="china-filter" type="button" data-filter="华中">华中</button>
+    <button class="china-filter" type="button" data-filter="华南">华南</button>
+    <button class="china-filter" type="button" data-filter="西南">西南</button>
+    <button class="china-filter" type="button" data-filter="西北">西北</button>
+    <button class="china-filter" type="button" data-filter="港澳台">港澳台</button>
+  </div>
+</section>
+
+<section class="china-album-grid" id="china-album-grid" aria-label="China provincial albums">
+  {% for item in site.data.china_albums.albums %}
+  {% assign photo_count = item.photos | size %}
+  <article class="china-album-card{% if photo_count == 0 %} is-waiting{% endif %}"
+           data-name="{{ item.display_name }} {{ item.display_en }}"
+           data-region="{{ item.region }}"
+           data-status="{% if photo_count > 0 %}explored{% else %}waiting{% endif %}">
+
+    {% if photo_count > 0 %}
+    <a href="{{ '/china-album' | relative_url }}?slug={{ item.slug }}" class="china-album-link" aria-label="Open {{ item.display_name }} album">
+    {% endif %}
+
+      <div class="china-album-cover">
+        {% if item.cover and item.cover != "" %}
+          <img src="{{ item.cover | relative_url }}" alt="{{ item.display_name }}">
+        {% else %}
+          <div class="waiting-cover">等待探索</div>
+        {% endif %}
+      </div>
+
+      <div class="china-album-info">
+        <span class="china-album-level">{{ item.type }}</span>
+        <h2>{{ item.display_name }}</h2>
+        <p class="china-album-location">{{ item.display_en }} · {{ item.region }}</p>
+        <p class="china-album-intro">{{ item.intro }}</p>
+        {% if photo_count > 0 %}
+          <div class="china-album-meta">{{ photo_count }} 张图片 · 点击进入</div>
+        {% else %}
+          <div class="china-album-meta waiting">等待探索</div>
+        {% endif %}
+      </div>
+
+    {% if photo_count > 0 %}
+    </a>
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
+
+<div class="china-empty-results" id="china-empty-results">没有找到匹配的相册。</div>
