@@ -1,7 +1,11 @@
 pages:
 - name: Home
-  url: ./
+  url: /
 - name: Publications
-  url: publications
+  url: /publications
 - name: China
-  url: china
+  url: /china
+- name: Blogs
+  url: /blogs
+- name: Teaching
+  url: /teaching

@@ -1,0 +1,100 @@
+intro:
+  title: "Blogs"
+  subtitle: "Films, Books, and Notes"
+  description: >-
+    This page records films, books, and fragments of thought encountered in everyday life.
+    It is not a formal review archive, but a personal space for keeping impressions,
+    moods, and intellectual traces.
+
+entries:
+  - id: movie-in-the-mood-for-love
+    type: movie
+    title: 花样年华
+    title_en: In the Mood for Love
+    creator: 王家卫
+    year: 2000
+    date: 2026-05-05
+    rating: 5
+    cover: assets/images/blogs/movies/in-the-mood-for-love.png
+    tags:
+      - 电影
+      - 香港
+      - 王家卫
+      - 情绪
+    note: >-
+      克制、暧昧与错过构成了影片最深的情绪底色。人物在狭窄楼道、旗袍纹理与昏黄灯光之间反复擦肩，
+      使“没有说出口的话”成为整部电影最有重量的部分。
+    content: >-
+      《花样年华》真正打动我的地方，不只是它的影像美学，而是它将“未完成的关系”
+      拍成了一种可以反复回响的情绪。影片中的人物始终保持着克制，很多话没有说出口，
+      很多关系没有真正开始，却因此留下了更持久的余韵。楼道、旗袍、昏黄灯光与狭窄空间
+      共同构成了一种压抑而精致的情绪场，使观众不断感受到靠近与错过之间的距离。
+
+  - id: movie-chungking-express
+    type: movie
+    title: 重庆森林
+    title_en: Chungking Express
+    creator: 王家卫
+    year: 1994
+    date: 2026-05-05
+    rating: 5
+    cover: ""
+    tags:
+      - 电影
+      - 香港
+      - 都市
+      - 孤独
+    note: >-
+      影片把香港都市的速度、孤独与偶然相遇拍得轻盈而迷离。罐头、便利店、快餐店与拥挤街道共同组成一种
+      流动的城市情绪，让人在喧闹中感到温柔的孤独。
+    content: >-
+      《花样年华》真正打动我的地方，不只是它的影像美学，而是它将“未完成的关系”
+      拍成了一种可以反复回响的情绪。影片中的人物始终保持着克制，很多话没有说出口，
+      很多关系没有真正开始，却因此留下了更持久的余韵。楼道、旗袍、昏黄灯光与狭窄空间
+      共同构成了一种压抑而精致的情绪场，使观众不断感受到靠近与错过之间的距离。
+
+  - id: book-the-little-prince
+    type: book
+    title: 小王子
+    title_en: The Little Prince
+    creator: Antoine de Saint-Exupéry
+    year: 1943
+    date: 2026-05-05
+    rating: 5
+    cover: ""
+    tags:
+      - 图书
+      - 文学
+      - 童话
+      - 人生
+    note: >-
+      这本书用极其简洁的童话形式讨论孤独、爱、责任与观看世界的方式。它真正打动人的地方，
+      不在于故事复杂，而在于把成年人遗忘的敏感与纯粹重新带回眼前。
+    content: >-
+      《花样年华》真正打动我的地方，不只是它的影像美学，而是它将“未完成的关系”
+      拍成了一种可以反复回响的情绪。影片中的人物始终保持着克制，很多话没有说出口，
+      很多关系没有真正开始，却因此留下了更持久的余韵。楼道、旗袍、昏黄灯光与狭窄空间
+      共同构成了一种压抑而精致的情绪场，使观众不断感受到靠近与错过之间的距离。
+
+  - id: book-sapiens
+    type: book
+    title: 人类简史
+    title_en: Sapiens
+    creator: Yuval Noah Harari
+    year: 2011
+    date: 2026-05-05
+    rating: 4
+    cover: ""
+    tags:
+      - 图书
+      - 历史
+      - 社会
+      - 文明
+    note: >-
+      这本书提供了一种宏观理解人类社会演化的视角，将认知革命、农业革命和科学革命联系起来。
+      它的价值不只在于知识点本身，也在于帮助读者重新思考制度、信念与集体想象如何塑造世界。
+    content: >-
+      《花样年华》真正打动我的地方，不只是它的影像美学，而是它将“未完成的关系”
+      拍成了一种可以反复回响的情绪。影片中的人物始终保持着克制，很多话没有说出口，
+      很多关系没有真正开始，却因此留下了更持久的余韵。楼道、旗袍、昏黄灯光与狭窄空间
+      共同构成了一种压抑而精致的情绪场，使观众不断感受到靠近与错过之间的距离。

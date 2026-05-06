@@ -1,0 +1,121 @@
+---
+layout: default
+title: Blogs
+navbar_name: Blogs
+extra_css:
+  - /assets/css/blogs.css
+extra_js:
+  - /assets/js/blogs.js
+---
+
+<section class="blogs-hero">
+  <div class="blogs-hero-content">
+    <span class="section-eyebrow">Personal Archive</span>
+    <h1>{{ site.data.blogs.intro.title }}</h1>
+    <p class="blogs-subtitle">{{ site.data.blogs.intro.subtitle }}</p>
+    <p>{{ site.data.blogs.intro.description }}</p>
+  </div>
+</section>
+
+<section class="blogs-toolbar">
+  <div class="blogs-search-wrap">
+    <input type="text" id="blogs-search" placeholder="搜索电影、图书、作者、标签或记录内容">
+  </div>
+
+  <div class="blogs-filter-group" aria-label="Blog filters">
+    <button class="blogs-filter active" data-filter="all" type="button">All</button>
+    <button class="blogs-filter" data-filter="movie" type="button">Movies</button>
+    <button class="blogs-filter" data-filter="book" type="button">Books</button>
+  </div>
+</section>
+
+<section class="blogs-stats">
+  <div class="blogs-stat-card">
+    <span>{{ site.data.blogs.entries | size }}</span>
+    <p>Total Records</p>
+  </div>
+
+  {% assign movie_count = site.data.blogs.entries | where: "type", "movie" | size %}
+  {% assign book_count = site.data.blogs.entries | where: "type", "book" | size %}
+
+  <div class="blogs-stat-card">
+    <span>{{ movie_count }}</span>
+    <p>Movies</p>
+  </div>
+
+  <div class="blogs-stat-card">
+    <span>{{ book_count }}</span>
+    <p>Books</p>
+  </div>
+</section>
+
+<section class="blogs-grid" id="blogs-grid">
+  {% assign entries = site.data.blogs.entries | sort: "date" | reverse %}
+  {% for item in entries %}
+  <article class="blog-card"
+           data-type="{{ item.type }}"
+           data-title="{{ item.title }} {{ item.title_en }}"
+           data-creator="{{ item.creator }}"
+           data-tags="{{ item.tags | join: ' ' }}"
+           data-note="{{ item.note | strip_html }}">
+
+    <div class="blog-cover">
+      {% if item.cover and item.cover != "" %}
+        <img src="{{ item.cover | relative_url }}" alt="{{ item.title }}">
+      {% else %}
+        <div class="blog-cover-placeholder">
+          <span>{{ item.type | capitalize }}</span>
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="blog-card-body">
+      <div class="blog-card-meta">
+        <span class="blog-type {{ item.type }}">{{ item.type }}</span>
+        <span>{{ item.date }}</span>
+      </div>
+
+      <h2>
+        <a href="{{ '/blog-detail' | relative_url }}?id={{ item.id }}">
+        {{ item.title }}
+        </a>
+      </h2>
+
+      {% if item.title_en and item.title_en != "" %}
+      <p class="blog-title-en">{{ item.title_en }}</p>
+      {% endif %}
+
+      <p class="blog-creator">{{ item.creator }} · {{ item.year }}</p>
+
+      {% if item.rating %}
+      <div class="blog-rating" aria-label="Rating">
+        {% for i in (1..5) %}
+          {% if i <= item.rating %}
+            <span>★</span>
+          {% else %}
+            <span class="empty">★</span>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <p class="blog-note">{{ item.note }}</p>
+
+      <div class="blog-tags">
+        {% for tag in item.tags %}
+          <span>{{ tag }}</span>
+        {% endfor %}
+      </div>
+
+      <a class="blog-read-more" href="{{ '/blog-detail' | relative_url }}?id={{ item.id }}">
+        Read full note →
+      </a>
+
+    </div>
+  </article>
+  {% endfor %}
+</section>
+
+<section class="blogs-empty" id="blogs-empty" hidden>
+  没有找到对应记录。
+</section>

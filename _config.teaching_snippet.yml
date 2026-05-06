@@ -1,0 +1,11 @@
+# Add/replace the collections block in _config.yml with this structure.
+# Keep your existing baseurl/url/plugins settings unchanged.
+collections:
+  publications:
+    output: false
+  news:
+    output: false
+  courses:
+    output: true
+  lessons:
+    output: true

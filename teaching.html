@@ -1,0 +1,55 @@
+---
+layout: default
+title: Teaching
+navbar_name: Teaching
+---
+<link rel="stylesheet" href="{{ '/assets/css/teaching.css' | relative_url }}">
+
+<section class="teaching-hero">
+  <span class="section-eyebrow">Teaching</span>
+  <h1>Courses on Computational Social Science and Information Analysis</h1>
+  <p>
+    This page organizes course materials, reading notes, technical tutorials, and methodological documents.
+    The current teaching modules focus on social network analysis, text mining, bibliometrics,
+    and data-driven research methods for information resource management.
+  </p>
+</section>
+
+<section class="teaching-overview">
+  <div class="teaching-overview-card">
+    <span>01</span>
+    <h2>Course-oriented</h2>
+    <p>Each course has its own syllabus, topic structure, learning objectives, and document-style sections.</p>
+  </div>
+  <div class="teaching-overview-card">
+    <span>02</span>
+    <h2>Markdown-first</h2>
+    <p>Each section is written as a Markdown document, making it easy to update, extend, and reuse.</p>
+  </div>
+  <div class="teaching-overview-card">
+    <span>03</span>
+    <h2>Research-linked</h2>
+    <p>The materials connect methods with real research tasks, including network construction and textual evidence analysis.</p>
+  </div>
+</section>
+
+<section class="course-grid">
+  {% assign courses = site.courses | sort: 'order' %}
+  {% for course in courses %}
+  {% assign lessons = site.lessons | where: 'course', course.course_id | sort: 'order' %}
+  <a class="course-card" href="{{ course.url | relative_url }}">
+    <div class="course-card-top">
+      <span class="course-code">{{ course.course_code }}</span>
+      <span class="course-count">{{ lessons | size }} sections</span>
+    </div>
+    <h2>{{ course.course_title_cn }}</h2>
+    <p class="course-title-en">{{ course.course_title_en }}</p>
+    <p>{{ course.course_summary }}</p>
+    <div class="course-tags">
+      {% for tag in course.keywords %}
+      <span>{{ tag }}</span>
+      {% endfor %}
+    </div>
+  </a>
+  {% endfor %}
+</section>

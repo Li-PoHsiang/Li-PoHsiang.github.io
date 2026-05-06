@@ -1,36 +1,29 @@
-# academic-homepage
+# Bo Xiang's Personal Homepage
 
-This is a GitHub Pages template for personal academic homepages. The template is based on [the creator's homepage](https://luost.me).
+This repository hosts my personal academic homepage built with Jekyll and GitHub Pages.
 
-Click [here](https://luost.me/academic-homepage/) to see the preview of the template.
+The website presents my academic profile, publications, research interests, personal archives, China albums, and teaching materials.
 
-| Homepage | Publications | Pub. (Mobile) |
-| -------- | ------------ | ------------- |
-| ![](assets/images/etc/preview_home.png) | ![](assets/images/etc/preview_publications.png) | ![](assets/images/etc/preview_pub_mobile.png) |
+## Website Sections
 
- ```geojson
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "id": 1,
-      "properties": {
-        "ID": 0
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-              [-77.4286, 39.0481],
-              [-77.2085, 39.0481],
-              [-77.2085, 38.9343],
-              [-77.4286, 38.9343],
-              [-77.4286, 39.0481]
-          ]
-        ]
-      }
-    }
-  ]
-}
-```
+- **Home**  
+  Personal profile, research interests, education, experience, news, and selected publications.
+
+- **Publications**  
+  Peer-reviewed publications organized by year.
+
+- **China**  
+  A province-level visual atlas of China. It records landscapes, cities, historical sites, and cultural scenes across provincial-level regions including Taiwan, Hong Kong, and Macao.
+
+- **Blogs**  
+  A personal archive for films, books, and short reflections.
+
+- **Teaching**  
+  Course materials and Markdown-based documents for topics such as social network analysis, text mining, LLMs, RAG, and knowledge graphs.
+
+## Local Preview
+
+Install dependencies:
+
+```bash
+bundle install

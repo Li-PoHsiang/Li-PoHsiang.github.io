@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="{{ '/assets/css/teaching.css' | relative_url }}">
+
+<section class="course-hero">
+  <a class="teaching-back-link" href="{{ '/teaching' | relative_url }}">← Back to Teaching</a>
+  <span class="section-eyebrow">Course</span>
+  <h1>{{ page.course_title_cn }}</h1>
+  <p class="course-title-en-large">{{ page.course_title_en }}</p>
+  <p>{{ page.course_summary }}</p>
+  <div class="course-meta-row">
+    <span>{{ page.course_code }}</span>
+    <span>{{ page.audience }}</span>
+    <span>{{ page.language }}</span>
+  </div>
+</section>
+
+<section class="course-description">
+  {{ content }}
+</section>
+
+{% assign lessons = site.lessons | where: 'course', page.course_id | sort: 'order' %}
+
+<section class="course-outline">
+  <div class="course-outline-header">
+    <span class="section-eyebrow">Outline</span>
+    <h2>Course Directory</h2>
+    <p>Click a section to open the Markdown-based teaching document.</p>
+  </div>
+
+  {% for module in page.modules %}
+  {% assign module_lessons = lessons | where: 'module_key', module.key %}
+  <div class="course-module">
+    <div class="course-module-header">
+      <span>{{ module.index }}</span>
+      <div>
+        <h3>{{ module.title }}</h3>
+        <p>{{ module.description }}</p>
+      </div>
+    </div>
+
+    <div class="lesson-list">
+      {% for lesson in module_lessons %}
+      <a class="lesson-row" href="{{ lesson.url | relative_url }}">
+        <div>
+          <span class="lesson-order">{{ lesson.lesson_no }}</span>
+          <h4>{{ lesson.title }}</h4>
+          <p>{{ lesson.excerpt_text }}</p>
+        </div>
+        <span class="lesson-arrow">→</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</section>

@@ -1,0 +1,50 @@
+---
+layout: default
+title: Blog Detail
+navbar_name: Blogs
+extra_css:
+  - /assets/css/blogs.css
+extra_js:
+  - /assets/js/blog-detail.js
+---
+
+<section class="blog-detail-hero">
+  <a class="blog-back-link" href="{{ '/blogs' | relative_url }}">← Back to Blogs</a>
+
+  <div class="blog-detail-meta">
+    <span id="detail-type"></span>
+    <span id="detail-date"></span>
+  </div>
+
+  <h1 id="detail-title">Blog Detail</h1>
+  <p id="detail-title-en"></p>
+
+  <div class="blog-detail-submeta">
+    <span id="detail-creator"></span>
+    <span id="detail-year"></span>
+  </div>
+
+  <div class="blog-detail-rating" id="detail-rating"></div>
+</section>
+
+<section class="blog-detail-layout">
+  <aside class="blog-detail-cover" id="detail-cover"></aside>
+
+  <article class="blog-detail-content">
+    <div class="blog-detail-tags" id="detail-tags"></div>
+
+    <h2>Short Note</h2>
+    <p id="detail-note"></p>
+
+    <h2>有感</h2>
+    <p id="detail-content"></p>
+  </article>
+</section>
+
+<section class="blogs-empty" id="blog-detail-empty" hidden>
+  没有找到这条记录。
+</section>
+
+<script type="application/json" id="blogs-data">
+{{ site.data.blogs.entries | jsonify }}
+</script>

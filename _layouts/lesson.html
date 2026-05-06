@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="{{ '/assets/css/teaching.css' | relative_url }}">
+
+{% assign course = site.courses | where: 'course_id', page.course | first %}
+{% assign lessons = site.lessons | where: 'course', page.course | sort: 'order' %}
+
+<section class="lesson-hero">
+  <a class="teaching-back-link" href="{{ course.url | relative_url }}">← Back to {{ course.course_title_cn }}</a>
+  <span class="section-eyebrow">{{ course.course_code }} / {{ page.lesson_no }}</span>
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.excerpt_text }}</p>
+  <div class="course-meta-row">
+    <span>{{ page.module }}</span>
+    <span>{{ page.duration }}</span>
+    <span>{{ page.level }}</span>
+  </div>
+</section>
+
+<div class="lesson-layout">
+  <aside class="lesson-sidebar">
+    <h3>Course Sections</h3>
+    {% for lesson in lessons %}
+    <a class="lesson-sidebar-link {% if lesson.url == page.url %}active{% endif %}" href="{{ lesson.url | relative_url }}">
+      <span>{{ lesson.lesson_no }}</span>
+      {{ lesson.title }}
+    </a>
+    {% endfor %}
+  </aside>
+
+  <article class="lesson-content markdown-body">
+    {{ content }}
+  </article>
+</div>
