@@ -19,7 +19,7 @@ github: Li-PoHsiang
 orcid: 0000-0002-3020-2223
 
 short_bio: >-
-  I am a Ph.D. student in Information Resource Management at Nanjing University, working under the supervision of Prof. <a href="https://im.nju.edu.cn/info/1124/33651.htm">Jin Shi</a>.
+  I am a Ph.D. student in Information Resource Management at Nanjing University.
   My research explores how artificial intelligence reshapes healthcare knowledge, patent intelligence, business information mining, and scholarly communication.
   I am particularly interested in using large language models, bibliometrics, network analysis, and machine learning to uncover hidden structures in complex information systems.
 
@@ -39,20 +39,25 @@ portrait_caption: >-
   欢迎访问我的主页~
 
 education:
+- name: National University of Singapore
+  logo: assets/images/badges/NUS.jpg
+  position: >-
+    Joint Ph.D. in Analytics and Operations
+  date: Aug. 2026 - now
 - name: Nanjing University
   logo: assets/images/badges/NJU.jpg
   position: >-
-    Ph.D. in Information Resource Management (Supervisor: <a href="https://im.nju.edu.cn/info/1124/33651.htm">Jin Shi</a>)
+    Ph.D. in Information Resource Management
   date: Sep. 2024 - now
 - name: Nanjing Audit University
   logo: assets/images/badges/NAU.png
   position: >-
-    M.S. in Business Administration (Supervisor: <a href="https://scholar.google.com/citations?user=y5nPV8cAAAAJ&hl=zh-CN&oi=sra">Dejian Yu</a>)
+    M.S. in Business Administration
   date: Sep. 2021 - Jul. 2024
 - name: East China University of Technology
   logo: assets/images/badges/ECUT.png
   position: >-
-    B.S. in Mathematics and Applied Mathematics (Supervisor: <a href="https://zpsys.ecut.edu.cn/_s134/ea/1f/c4426a125471/page.psp">Huanwen Chen</a> & <a href="https://lxy.ecut.edu.cn/85/d0/c9162a34256/page.htm">Zhihui Yang</a>)
+    B.S. in Mathematics and Applied Mathematics
   date: Sep. 2017 - Jul. 2021
   
 experience:
