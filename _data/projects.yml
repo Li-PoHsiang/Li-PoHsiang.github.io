@@ -9,4 +9,23 @@ intro:
 # Add confirmed projects here. Optional fields: period, role, image, image_alt,
 # tags (list), and links (list of objects with label and url).
 # Required fields: id, title, category, summary.
-entries: []
+entries:
+  - id: jiangxi-heritage-atlas
+    title: Jiangxi Heritage Atlas · 赣地风物
+    category: Digital Heritage
+    summary: >-
+      An interactive atlas documenting Jiangxi's intangible cultural heritage and
+      everyday folk traditions. Through maps and a county-level directory, visitors
+      can explore traditional crafts, local food, festivals, and customs in their
+      regional context. The project connects heritage records with cultural
+      narratives and source references, making local knowledge easier to discover,
+      understand, and revisit. It brings scattered cultural materials into a shared
+      digital space for recording and exploring the living heritage of Jiangxi.
+    tags:
+      - Cultural Heritage
+      - Interactive Mapping
+      - Knowledge Organization
+      - Jiangxi
+    links:
+      - label: Explore the atlas
+        url: https://jiangxi-heritage-atlas.pages.dev/

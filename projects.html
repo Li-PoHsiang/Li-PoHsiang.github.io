@@ -26,7 +26,7 @@ extra_js:
 <section class="projects-portfolio" id="project-portfolio" aria-labelledby="portfolio-title">
   <div class="projects-section-heading">
     <div><span class="section-eyebrow">The Portfolio</span><h2 id="portfolio-title">Projects</h2></div>
-    {% if projects.size > 0 %}<p id="projects-count" role="status" aria-live="polite">{{ projects.size }} projects</p>{% endif %}
+    {% if projects.size > 0 %}<p id="projects-count" role="status" aria-live="polite">{{ projects.size }} {% if projects.size == 1 %}project{% else %}projects{% endif %}</p>{% endif %}
   </div>
   {% if projects.size > 0 %}
   {% assign categories = projects | map: 'category' | uniq %}
