@@ -588,6 +588,12 @@ img.lazy {
     border-color: #edcec3;
 }
 
+.publication-badge--ei {
+    color: #285f78;
+    background: #e4f1f7;
+    border-color: #c5dfe9;
+}
+
 .publication-badge:hover,
 .publication-badge:focus-visible {
     color: var(--text-main);

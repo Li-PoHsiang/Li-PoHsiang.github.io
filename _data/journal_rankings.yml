@@ -27,6 +27,9 @@ systems:
     label: CSSCI
     title: Chinese Social Sciences Citation Index
     url: https://cssci.nju.edu.cn/
+  ei:
+    label: EI
+    title: Engineering Index (Compendex)
 
 # Keys match the publication venue after trimming and lowercasing.
 journals:
@@ -52,8 +55,7 @@ journals:
     indexes: [sci, ssci]
     index_url: https://topj.lib.whu.edu.cn/show.asp?cat=zk&id=17586
   international journal of intelligent computing and cybernetics:
-    # ESCI is distinct from SCI/SSCI; none of the requested grades was found.
-    indexes: []
+    indexes: [ei]
     index_url: https://www.emerald.com/ijicc/pages/indexing-and-metrics
   ieee internet of things journal:
     ccf: C
