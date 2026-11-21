@@ -1,0 +1,100 @@
+# Current journal classifications, rather than publication-year classifications.
+# Reviewed 2026-11-21. Omitted grades mean not found in the referenced edition.
+# Chinese journals' CSSCI status is confirmed by the author.
+systems:
+  ccf:
+    label: CCF
+    title: CCF recommended international journals, seventh edition (2026)
+    url: https://www.ccf.org.cn/Academic_Evaluation/By_category/
+  fms:
+    label: FMS
+    title: FMS Journal Rating Guide 2025
+    url: https://www.fms-journal.net/
+    international_list: https://www.fms-journal.net/download_pdf
+    chinese_list: https://www.fms-journal.net/download_cn_pdf
+  abs:
+    label: ABS
+    title: ABS Academic Journal Guide 2024
+    url: https://charteredabs.org/academic-journal-guide/academic-journal-guide-2024
+    reference_copy: https://mse.bistu.edu.cn/docs/2025-09/dbc156cd13124e25bfeda2db9dd3d1e2.xlsx
+  sci:
+    label: SCI
+    title: Science Citation Index Expanded (SCIE)
+  ssci:
+    label: SSCI
+    title: Social Sciences Citation Index
+  cssci:
+    label: CSSCI
+    title: Chinese Social Sciences Citation Index
+    url: https://cssci.nju.edu.cn/
+
+# Keys match the publication venue after trimming and lowercasing.
+journals:
+  expert systems with applications:
+    ccf: C
+    fms: C
+    abs: "1"
+    indexes: [sci]
+    index_url: https://www.sciencedirect.com/journal/expert-systems-with-applications/about/abstracting-and-indexing
+  international journal of manpower:
+    fms: C
+    abs: "2"
+    indexes: [ssci]
+    index_url: https://www.emerald.com/ijm/pages/indexing-and-metrics
+  corporate social responsibility and environmental management:
+    fms: C
+    abs: "1"
+    indexes: [ssci]
+    index_url: https://onlinelibrary.wiley.com/page/journal/15353966/homepage/productinformation.html
+  journal of informetrics:
+    fms: B
+    abs: "1"
+    indexes: [sci, ssci]
+    index_url: https://topj.lib.whu.edu.cn/show.asp?cat=zk&id=17586
+  international journal of intelligent computing and cybernetics:
+    # ESCI is distinct from SCI/SSCI; none of the requested grades was found.
+    indexes: []
+    index_url: https://www.emerald.com/ijicc/pages/indexing-and-metrics
+  ieee internet of things journal:
+    ccf: C
+    indexes: [sci]
+    index_url: https://ieee-iotj.org/
+  electronic markets:
+    fms: C
+    abs: "2"
+    indexes: [ssci]
+    index_url: https://link.springer.com/journal/12525
+  technology in society:
+    abs: "2"
+    indexes: [ssci]
+    index_url: https://topj.lib.whu.edu.cn/show.asp?cat=zk&id=17547
+  journal of information resources management:
+    fms: T2
+    indexes: [cssci]
+  ieee transactions on engineering management:
+    fms: B
+    abs: "3"
+    indexes: [sci, ssci]
+    index_url: https://bib-pubdb1.desy.de/record/13280
+  information science:
+    # The Chinese journal 情报科学, not Elsevier's Information Sciences.
+    indexes: [cssci]
+  international journal of human-computer interaction:
+    ccf: B
+    indexes: [sci, ssci]
+    index_url: https://www.tandfonline.com/action/journalInformation?journalCode=hihc20&show=instructions
+  chinese journal of scientific and technical periodicals:
+    indexes: [cssci]
+  information processing and management:
+    ccf: B
+    fms: B
+    abs: "2"
+    indexes: [sci, ssci]
+    index_url: https://ccip.ucas.edu.cn/post/25-06-15-shi-yan-shi-xu-jun/
+  scientometrics:
+    fms: B
+    abs: "2"
+    indexes: [sci, ssci]
+    index_url: https://link.springer.com/journal/11192
+  library tribune:
+    indexes: [cssci]

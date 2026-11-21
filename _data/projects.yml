@@ -1,0 +1,12 @@
+intro:
+  eyebrow: Research & Practice
+  title: Ideas into
+  emphasis: practice.
+  description: >-
+    A space for research projects, analytical tools, and collaborations
+    at the intersection of artificial intelligence and information resource management.
+
+# Add confirmed projects here. Optional fields: period, role, image, image_alt,
+# tags (list), and links (list of objects with label and url).
+# Required fields: id, title, category, summary.
+entries: []

@@ -1,0 +1,18 @@
+{%- assign journal_key = include.item.pub | strip | downcase -%}
+{%- assign journal_info = site.data.journal_rankings.journals[journal_key] -%}
+<span class="publication-badges">
+    {{ include.item.pub_last }}
+    {%- assign ranking_systems = "ccf,fms,abs" | split: "," -%}
+    {%- for system_key in ranking_systems -%}
+        {%- assign grade = journal_info[system_key] -%}
+        {%- if grade -%}
+            {%- assign system = site.data.journal_rankings.systems[system_key] -%}
+            <a class="badge badge-pill badge-custom publication-badge publication-badge--{{ system_key }}" href="{{ system.url | escape }}" target="_blank" rel="noopener noreferrer" title="{{ system.title | escape }}: {{ grade | escape }}">{{ system.label }} {{ grade }}</a>
+        {%- endif -%}
+    {%- endfor -%}
+    {%- for index_key in journal_info.indexes -%}
+        {%- assign system = site.data.journal_rankings.systems[index_key] -%}
+        {%- assign index_url = journal_info.index_url | default: system.url -%}
+        <a class="badge badge-pill badge-custom publication-badge publication-badge--{{ index_key }}" href="{{ index_url | escape }}" target="_blank" rel="noopener noreferrer" title="{{ system.title | escape }}">{{ system.label }}</a>
+    {%- endfor -%}
+</span>

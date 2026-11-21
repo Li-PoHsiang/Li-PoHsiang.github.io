@@ -2,7 +2,7 @@
 
 This repository hosts my personal academic homepage built with Jekyll and GitHub Pages.
 
-The website presents my academic profile, publications, research interests, personal archives, China albums, and teaching materials.
+The website presents my academic profile, publications, research interests, projects, personal archives, and teaching materials.
 
 ## Website Sections
 
@@ -12,8 +12,8 @@ The website presents my academic profile, publications, research interests, pers
 - **Publications**  
   Peer-reviewed publications organized by year.
 
-- **China**  
-  A province-level visual atlas of China. It records landscapes, cities, historical sites, and cultural scenes across provincial-level regions including Taiwan, Hong Kong, and Macao.
+- **Projects**
+  A portfolio for research projects, tools, and collaborations, with topic filters and optional project images and links. Entries are maintained in `_data/projects.yml`.
 
 - **Blogs**  
   A personal archive for films, books, and short reflections.

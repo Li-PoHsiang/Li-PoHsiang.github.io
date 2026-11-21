@@ -521,6 +521,85 @@ img.lazy {
     font-size: 100%;
 }
 
+.publication-badges {
+    display: inline;
+}
+
+.publication-mobile-card {
+    overflow: hidden;
+    margin-bottom: 0.75rem;
+}
+
+.publication-mobile-card .card-img {
+    height: 160px;
+    padding: 0.75rem;
+    object-fit: contain;
+    background-color: #fff;
+}
+
+.publication-mobile-body {
+    position: relative;
+}
+
+.publication-badges .badge {
+    margin: 0.15rem 0.18rem 0.15rem 0;
+    vertical-align: baseline;
+}
+
+.publication-badge {
+    border: 1px solid transparent;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.publication-badge--ccf {
+    color: #23477f;
+    background: #e7eefb;
+    border-color: #ccd9ef;
+}
+
+.publication-badge--fms {
+    color: #176157;
+    background: #e4f3ee;
+    border-color: #c3dfd5;
+}
+
+.publication-badge--abs {
+    color: #795014;
+    background: #fff1d5;
+    border-color: #ecd5a8;
+}
+
+.publication-badge--sci {
+    color: #5e3f8b;
+    background: #efe8f8;
+    border-color: #dcd0ee;
+}
+
+.publication-badge--ssci {
+    color: #8b3f62;
+    background: #f8e8ef;
+    border-color: #ebcedb;
+}
+
+.publication-badge--cssci {
+    color: #913f32;
+    background: #faeae4;
+    border-color: #edcec3;
+}
+
+.publication-badge:hover,
+.publication-badge:focus-visible {
+    color: var(--text-main);
+    border-color: currentColor;
+    text-decoration: none;
+}
+
+.publication-badge:focus-visible {
+    outline: 2px solid var(--accent-blue);
+    outline-offset: 2px;
+}
+
 .email-text {
     font-family: Courier, monospace;
 }
