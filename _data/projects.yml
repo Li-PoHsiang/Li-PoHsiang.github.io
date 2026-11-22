@@ -29,3 +29,23 @@ entries:
     links:
       - label: Explore the atlas
         url: https://jiangxi-heritage-atlas.pages.dev/
+  - id: humanities-social-sciences-portal
+    title: Humanities and Social Sciences Research Portal · 人文社科项目平台
+    category: Research Intelligence
+    summary: >-
+      A research discovery platform organizing humanities and social sciences
+      funding records alongside scholars, institutions, disciplines, and research
+      outputs. It brings together national, Ministry of Education, and selected
+      provincial project series in a searchable interface. Topic and keyword
+      views, annual trends, and linked project and scholar profiles help visitors
+      explore research themes and the people and organizations behind them.
+      The platform turns dispersed funding information into a connected resource
+      for understanding the humanities and social sciences research landscape.
+    tags:
+      - Research Intelligence
+      - Funding Data
+      - Scholarly Communication
+      - Data Visualization
+    links:
+      - label: Explore the platform
+        url: https://renwen-sheke.pages.dev/
