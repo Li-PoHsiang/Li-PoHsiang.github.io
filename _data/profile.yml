@@ -59,6 +59,13 @@ education:
   position: >-
     B.S. in Mathematics and Applied Mathematics
   date: Sep. 2017 - Jul. 2021
+- name: The Hong Kong Polytechnic University
+  logo: assets/images/badges/PolyU.ico
+  dept: Department of Applied Mathematics
+  position: Research Assistant
+- name: Jiangxi University of Finance and Economics
+  logo: assets/images/badges/JUFE.png
+  position: Cross-university Coursework in Finance
   
 experience:
 - name: DiDi Digital
